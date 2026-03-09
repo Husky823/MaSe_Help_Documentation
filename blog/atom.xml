@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://husky823.github.io/MaSe_Help_Documentation/blog</id>
-    <title>My Site Blog</title>
+    <title>MASE 使用说明 Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://husky823.github.io/MaSe_Help_Documentation/blog"/>
-    <subtitle>My Site Blog</subtitle>
-    <icon>https://husky823.github.io/MaSe_Help_Documentation/img/favicon.ico</icon>
+    <subtitle>MASE 使用说明 Blog</subtitle>
+    <icon>https://husky823.github.io/MaSe_Help_Documentation/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://husky823.github.io/MaSe_Help_Documentation/blog/welcome</id>

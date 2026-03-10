@@ -85,17 +85,17 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'MaSe 使用手册',
+        title: 'MaSe',
         logo: {
           alt: 'MaSe Logo',
           src: 'img/MaSe_logo.png',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'doc',
+            docId: 'intro',
             position: 'left',
-            label: '功能说明',
+            label: 'MaSe 使用手册',
           },
           /*{to: '/blog', label: 'Blog', position: 'left'},
           {

@@ -1,4 +1,11 @@
-# 系统简介
+docs/pos/cashier
+
+---
+title: 收银操作
+sidebar_position: 1
+---
+
+# 收银操作
 
 这里介绍系统服务功能。
 

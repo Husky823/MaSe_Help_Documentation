@@ -1,3 +1,10 @@
+docs/system/training-process
+
+---
+title: 基础培训流程
+sidebar_position: 2
+---
+
 # 基础培训流程
 
 这里介绍系统服务功能。

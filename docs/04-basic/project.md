@@ -1,4 +1,11 @@
-# 产品资料管理
+docs/basic/project.md
+
+---
+title: 项目资料管理
+sidebar_position: 1
+---
+
+# 项目资料管理
 
 这里介绍系统服务功能。
 

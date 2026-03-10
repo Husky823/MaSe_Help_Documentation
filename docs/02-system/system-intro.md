@@ -1,4 +1,11 @@
-# 项目资料管理
+docs/system/system-intro
+
+---
+title: 系统简介
+sidebar_position: 1
+---
+
+# 系统简介
 
 这里介绍系统服务功能。
 

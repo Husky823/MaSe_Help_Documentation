@@ -1,3 +1,10 @@
+docs/pos/order
+
+---
+title: 订单管理
+sidebar_position: 2
+---
+
 # 订单管理
 
 这里介绍系统服务功能。

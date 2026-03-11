@@ -14,6 +14,16 @@ const config = {
   tagline: 'MASE System Guide',
   favicon: 'img/favicon.png',
 
+  plugins: [
+  [
+    require.resolve("@easyops-cn/docusaurus-search-local"),
+    {
+      hashed: true,
+      language: ["en", "zh"],
+    },
+  ],
+],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -96,6 +106,10 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'MaSe 使用手册',
+          },
+          {
+            type: 'search',
+            position: 'right',
           },
           /*{to: '/blog', label: 'Blog', position: 'left'},
           {

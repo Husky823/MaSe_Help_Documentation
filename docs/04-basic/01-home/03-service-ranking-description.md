@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # 项目排行说明
 
-本功能用于管理系统中的产品信息。
+服务排行展示的是本月项目的销售次数排行，从高到底排。<br/>
 
 ---
 
@@ -13,34 +13,17 @@ sidebar_position: 3
 
 进入路径：
 
-系统后台 → 产品管理 → 产品资料
+**系统后台** → **首页** → **项目排行**
 
 ---
 
-## 新增产品
+## 图片说明
 
-1 点击 **新增按钮**
-
-2 填写产品信息：
-
-- 产品名称
-- 产品编码
-- 分类
-
-3 点击 **保存**
+![首页说明](/img/01home/03home.png)
 
 ---
 
-## 编辑产品
-
-点击产品列表中的 **编辑按钮** 即可修改信息。
-
----
-
-## 删除产品
-
-点击 **删除** 即可移除产品。
-
+<!--
 ## 操作视频
 
 <iframe
@@ -52,3 +35,4 @@ sidebar_position: 3
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+-->

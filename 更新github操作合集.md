@@ -3,6 +3,9 @@
     2.启动本地预览：npm start
     3.浏览器打开：http://localhost:3000
     4.停止本地服务:Ctrl + C
+    5.测试搜索时：
+        npm run build
+        npm run serve
 
 二.更新github：
     1.查看哪些文件被修改：git status
@@ -10,3 +13,6 @@
     3.提交修改：git commit -m "更新首页功能说明和图片"
     4.上传到 GitHub：git push origin main
     5.部署网站（生成 GitHub Pages）：npm run deploy
+
+三.AI文档链接格式
+    <a href="https://husky823.github.io/MaSe_Help_Documentation/docs/basic/home/daily-data-explanation/" target="_blank">每日数据说明</a>

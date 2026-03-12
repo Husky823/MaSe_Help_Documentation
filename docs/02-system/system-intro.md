@@ -1,5 +1,3 @@
-docs/system/system-intro
-
 ---
 title: 系统简介
 sidebar_position: 1
@@ -8,12 +6,6 @@ sidebar_position: 1
 # 系统简介
 
 这里介绍系统服务功能。
-
-## 操作步骤
-
-1 点击服务管理  
-2 新建服务  
-3 填写服务价格  
 
 ---
 
@@ -29,3 +21,12 @@ sidebar_position: 1
   allowfullscreen>
 </iframe>
 
+---
+
+## 操作步骤
+
+1 点击服务管理  
+2 新建服务  
+3 填写服务价格  
+
+---

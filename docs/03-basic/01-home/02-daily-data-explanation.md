@@ -28,12 +28,6 @@ sidebar_position: 2
 
 ---
 
-## 图片说明
-
-![首页说明](/img/01home/02home.png)
-
----
-
 <!--
 ## 操作视频
 
@@ -46,4 +40,12 @@ sidebar_position: 2
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+
+--
 -->
+
+## 图片说明
+
+![每日数据](/img/01home/02home.png)
+
+---

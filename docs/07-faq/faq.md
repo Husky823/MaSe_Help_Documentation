@@ -1,6 +1,12 @@
-docs/faq/projfaqect.md
-
 ---
 title: 常见问题处理
 sidebar_position: 1
 ---
+
+1.修改账号密码
+
+2.导出的报表在哪下载
+
+3.如何修改系统语言
+
+4.

@@ -17,12 +17,6 @@ sidebar_position: 3
 
 ---
 
-## 图片说明
-
-![首页说明](/img/01home/03home.png)
-
----
-
 <!--
 ## 操作视频
 
@@ -35,4 +29,14 @@ sidebar_position: 3
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+
+--
 -->
+
+## 图片说明
+
+![项目排行](/img/01home/03home.png)
+
+---
+
+

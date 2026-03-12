@@ -16,16 +16,7 @@ const sidebars = {
       ],
     },
 
-    {
-      type: 'category',
-      label: '前台操作',
-      items: [
-        'pos/cashier',
-        'pos/order',
-      ],
-    },
-
-    {
+     {
       type: 'category',
       label: '基础功能',
       items: [
@@ -41,9 +32,25 @@ const sidebars = {
               'basic/home/today-appointments-description',             
             ],
           },
-        'basic/product',
-        'basic/project',
+
+          {
+            type: 'category',
+            label: '基础设置',
+            items: [
+              'basic/settings/project',
+              'basic/settings/product',
+            ],
+          },
         'basic/schedule-function-description',
+      ],
+    },
+
+    {
+      type: 'category',
+      label: '前台操作',
+      items: [
+        'pos/cashier',
+        'pos/order',
       ],
     },
 
@@ -51,7 +58,7 @@ const sidebars = {
       type: 'category',
       label: '后台管理',
       items: [
-        'backend/points',
+        'backend/account-management'
       ],
     },
 
@@ -59,6 +66,9 @@ const sidebars = {
       type: 'category',
       label: '高级配置',
       items: [
+        'advanced/points',
+        'advanced/project-consumption',
+        'advanced/project-setting-scope',
         'advanced/godaddy-ssl',
       ],
     },

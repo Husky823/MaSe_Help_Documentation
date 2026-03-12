@@ -1,9 +1,9 @@
 ---
-title: Godaddy域名证书配置
-sidebar_position: 1
+title: 订单管理
+sidebar_position: 2
 ---
 
-# Godaddy域名证书配置
+# 订单管理
 
 这里介绍系统服务功能。
 
@@ -20,7 +20,7 @@ sidebar_position: 1
 <iframe
   width="100%"
   height="500"
-  src="https://www.youtube.com/embed/F_klAYmgrTI"
+  src="https://www.youtube.com/embed/rx2PJ2qN9AI"
   title="YouTube video"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

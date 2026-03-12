@@ -1,5 +1,3 @@
-docs/system/training-process
-
 ---
 title: 基础培训流程
 sidebar_position: 2
@@ -8,12 +6,6 @@ sidebar_position: 2
 # 基础培训流程
 
 这里介绍系统服务功能。
-
-## 操作步骤
-
-1 点击服务管理  
-2 新建服务  
-3 填写服务价格  
 
 ---
 
@@ -28,4 +20,16 @@ sidebar_position: 2
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+
+---
+
+## 操作步骤
+
+1 点击服务管理  
+2 新建服务  
+3 填写服务价格  
+
+---
+
+
 

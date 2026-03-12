@@ -29,3 +29,30 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* 手机不会横向滚动
+图片自动适配屏幕. */
+/*
+img {
+  max-width: 100%;
+  height: auto;
+}
+*/
+
+/* 手机页面不隐藏上方阅读指引. */
+/* 强制手机端目录默认展开 */
+@media (max-width: 996px) {
+
+  .table-of-contents__toggle {
+    pointer-events: none;
+  }
+
+  .table-of-contents__toggle::after {
+    transform: rotate(180deg);
+  }
+
+  .table-of-contents {
+    display: block !important;
+  }
+
+}

@@ -1,11 +1,9 @@
-docs/basic/project.md
-
 ---
-title: 项目资料管理
+title: 收银操作
 sidebar_position: 1
 ---
 
-# 项目资料管理
+# 收银操作
 
 这里介绍系统服务功能。
 

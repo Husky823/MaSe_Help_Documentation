@@ -68,3 +68,8 @@ sidebar_position: 4
 ![代金券](/img/02settings/37settings.png)
 
 ---
+
+## 温馨提示
+1. 系统中已经使用的代金券**不允许删除**；<br/>
+
+---

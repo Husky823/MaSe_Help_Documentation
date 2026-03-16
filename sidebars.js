@@ -39,6 +39,10 @@ const sidebars = {
             items: [
               'basic/settings/project',
               'basic/settings/product',
+              'basic/settings/memberships',
+              'basic/settings/vouchers',
+              'basic/settings/packages',
+              'basic/settings/gift-card',
             ],
           },
         'basic/schedule-function-description',
@@ -58,7 +62,7 @@ const sidebars = {
       type: 'category',
       label: '后台管理',
       items: [
-        'backend/account-management'
+        'backend/user-permissions'
       ],
     },
 

@@ -18,19 +18,20 @@ sidebar_position: 6
 
 ---
 
-<!--
+
 ## 操作视频
 
 <iframe
   width="100%"
   height="500"
-  src="https://www.youtube.com/embed/rx2PJ2qN9AI"
+  src="https://www.youtube.com/embed/YSM6KCSAW-8"
   title="YouTube video"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
--->
+
+---
 
 ## 图片说明
 

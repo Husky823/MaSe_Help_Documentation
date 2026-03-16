@@ -73,6 +73,7 @@ const sidebars = {
         'advanced/points',
         'advanced/project-consumption',
         'advanced/project-setting-scope',
+        'advanced/gc-generate-send',
         'advanced/godaddy-ssl',
       ],
     },

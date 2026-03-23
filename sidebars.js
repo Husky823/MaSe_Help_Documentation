@@ -61,9 +61,25 @@ const sidebars = {
     {
       type: 'category',
       label: '后台管理',
-      items: [
-        'backend/user-permissions'
-      ],
+      items: 
+      [
+         {
+          type: 'category',
+            label: '账户权限',
+            items: [
+              'backend/new-user-permissions/role-management',
+              'backend/new-user-permissions/user-permissions',       
+            ],
+          },
+
+          {
+            type: 'category',
+            label: '员工考勤和绩效',
+            items: [
+              'backend/staff-attendance-performance/payroll',     
+            ],
+          }                  
+      ]
     },
 
     {
@@ -75,6 +91,7 @@ const sidebars = {
         'advanced/project-setting-scope',
         'advanced/gc-generate-send',
         'advanced/godaddy-ssl',
+        
       ],
     },
 

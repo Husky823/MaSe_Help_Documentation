@@ -3,7 +3,8 @@ title: 今日提醒说明
 sidebar_position: 5
 ---
 
-# 今日提醒说明
+# 今日提醒
+## 功能说明
 
 今日提醒是方便您查看门店数据的窗口，您可以根据这些数据安排今日工作。<br/>
 
@@ -28,19 +29,18 @@ sidebar_position: 5
 
 ---
 
-<!--
 ## 操作视频
 
 <iframe
   width="100%"
   height="500"
-  src="https://www.youtube.com/embed/rx2PJ2qN9AI"
+  src="https://www.youtube.com/embed/mJYdkMUpDMA"
   title="YouTube video"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
--->
+
 
 ## 图片说明
 

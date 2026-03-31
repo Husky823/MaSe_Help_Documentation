@@ -3,7 +3,11 @@ title: 收银操作
 sidebar_position: 1
 ---
 
+正在更新敬请期待
+
+<!--
 # 收银操作
+## 功能说明
 
 这里介绍系统服务功能。
 
@@ -26,4 +30,4 @@ sidebar_position: 1
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
-
+-->

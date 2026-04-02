@@ -14,13 +14,13 @@ sidebar_position: 3
 **3.次卡（品项卡）**：客户购买后获得固定次数的服务权益（如“10次洗吹”），每次消费扣减1次，支持设置有效期及适用项目。<br/>
 
 ---
-<!--
+
 ## 操作视频
 
 <iframe
   width="100%"
   height="500"
-  src="https://www.youtube.com/embed/rx2PJ2qN9AI"
+  src="https://www.youtube.com/embed/jndhJLOq-sY"
   title="YouTube video"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -28,7 +28,6 @@ sidebar_position: 3
 </iframe>
 
 ---
--->
 
 ## 操作步骤
 

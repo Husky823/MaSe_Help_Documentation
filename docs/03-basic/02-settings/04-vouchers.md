@@ -14,13 +14,13 @@ sidebar_position: 4
 **2.次数代金券**：客户购买或获赠后，获得指定服务项目的**免费使用次数**（如“1次美甲代金券”），每次消费对应项目时自动扣减1次，同样可设有效期及适用范围。<br/>
 
 ---
-<!--
+
 ## 操作视频
 
 <iframe
   width="100%"
   height="500"
-  src="https://www.youtube.com/embed/rx2PJ2qN9AI"
+  src="https://www.youtube.com/embed/NTWdGMAXLaU"
   title="YouTube video"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -28,7 +28,6 @@ sidebar_position: 4
 </iframe>
 
 ---
--->
 
 ## 操作步骤
 

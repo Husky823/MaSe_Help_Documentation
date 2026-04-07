@@ -68,8 +68,7 @@ const sidebars = {
             label: '账户权限',
             items: [
               'backend/new-user-permissions/role-management',
-              'backend/new-user-permissions/user-permissions',
-              'backend/new-user-permissions/test1',      
+              'backend/new-user-permissions/user-permissions',        
             ],
           },
 

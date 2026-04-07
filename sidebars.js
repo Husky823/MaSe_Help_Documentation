@@ -68,7 +68,8 @@ const sidebars = {
             label: '账户权限',
             items: [
               'backend/new-user-permissions/role-management',
-              'backend/new-user-permissions/user-permissions',       
+              'backend/new-user-permissions/user-permissions',
+              'backend/new-user-permissions/test1',      
             ],
           },
 
@@ -86,7 +87,15 @@ const sidebars = {
       type: 'category',
       label: '高级配置',
       items: [
-        'advanced/points',
+
+        {type: 'category',
+            label: '积分功能管理',
+            items: [
+              'advanced/point-manage/points',
+              'advanced/point-manage/points-referrers',       
+           ],
+        },
+        
         'advanced/project-consumption',
         'advanced/project-setting-scope',
         'advanced/gc-generate-send',

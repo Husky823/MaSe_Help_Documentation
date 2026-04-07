@@ -31,16 +31,43 @@ sidebar_position: 5
 
 ## 操作视频
 
-<iframe
-  width="100%"
-  height="500"
-  src="https://www.youtube.com/embed/ZB8H6z7bVAc"
-  title="YouTube video"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+<div style={{ margin: '16px 0' }}>
+  <iframe
+    width="100%"
+    height="500"
+    src="https://www.youtube.com/embed/ZB8H6z7bVAc"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+    allowFullScreen
+    referrerPolicy="strict-origin-when-cross-origin"
+    style={{ border: 0, borderRadius: '12px'}}
+  />
+</div>
 
+<p style={{ marginTop: '12px', color:'#666'}}>
+  如视频无法播放（例如无痕模式或未登录 Google），请点击下方按钮前往 YouTube 登录观看。
+</p>
+
+<a
+  href="https://www.youtube.com/watch?v=ZB8H6z7bVAc"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: 'inline-block',
+    marginTop: '8px',
+    padding: '10px 16px',
+    background: '#2e8555',
+    color: '#fff',
+    borderRadius: '8px',
+    textDecoration: 'none',
+    fontWeight: 'bold',
+  }}
+>
+  👉 打开 YouTube 观看（支持登录 / 全屏）
+</a>
+
+---
 
 ## 图片说明
 

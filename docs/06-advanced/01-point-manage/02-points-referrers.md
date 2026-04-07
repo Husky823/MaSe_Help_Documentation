@@ -18,15 +18,42 @@ sidebar_position: 2
 
 ## 操作视频
 
-<iframe
-  width="100%"
-  height="500"
-  src="https://www.youtube.com/embed/VSsU9MVqAEs"
-  title="YouTube video"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+<div style={{ margin: '16px 0' }}>
+  <iframe
+    width="100%"
+    height="500"
+    src="https://www.youtube.com/embed/VSsU9MVqAEs"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+    allowFullScreen
+    referrerPolicy="strict-origin-when-cross-origin"
+    style={{ border: 0, borderRadius: '12px'}}
+  />
+</div>
+
+<p style={{ marginTop: '12px', color:'#666'}}>
+  如视频无法播放（例如无痕模式或未登录 Google），请点击下方按钮前往 YouTube 登录观看。
+</p>
+
+<a
+  href="https://www.youtube.com/watch?v=VSsU9MVqAEs"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: 'inline-block',
+    marginTop: '8px',
+    padding: '10px 16px',
+    background: '#2e8555',
+    color: '#fff',
+    borderRadius: '8px',
+    textDecoration: 'none',
+    fontWeight: 'bold',
+  }}
+>
+  👉 打开 YouTube 观看（支持登录 / 全屏）
+</a>
+
 
 ---
 -->
@@ -34,6 +61,18 @@ sidebar_position: 2
 ## 操作步骤
 
 **1.积分获取设置<br/>**
+• 在“MaSe”导航栏中打开“**设置-更多-积分规则**”功能，进入“**积分规则**”页面。<br/>
+![积分规则](/img/05backend/22backend.png)
+• 在“**积分规则**”页面的“**积分获取**“栏位，设置“**[推荐人]产品/项目消费获积分**”，推荐人可以在“**被推荐的客人**“消费产品和项目时获得积分。推荐人身份可以分为“**客户**”或“**员工**”两种情况设置获得积分比例；<br/>
+![推荐人功能](/img/05backend/34backend.png)
+
+**1.推荐人分享<br/>**
+• 在“MaSe”导航栏中打开“**设置-更多-积分规则**”功能，进入“**积分规则**”页面。<br/>
+![积分规则](/img/05backend/22backend.png)
+• 在“**积分规则**”页面的“**积分获取**“栏位，设置“**[推荐人]产品/项目消费获积分**”，推荐人可以在“**被推荐的客人**“消费产品和项目时获得积分。推荐人身份可以分为“**客户**”或“**员工**”两种情况设置获得积分比例；<br/>
+![推荐人功能](/img/05backend/34backend.png)
+
+**1.被推荐人领取<br/>**
 • 在“MaSe”导航栏中打开“**设置-更多-积分规则**”功能，进入“**积分规则**”页面。<br/>
 ![积分规则](/img/05backend/22backend.png)
 • 在“**积分规则**”页面的“**积分获取**“栏位，设置“**[推荐人]产品/项目消费获积分**”，推荐人可以在“**被推荐的客人**“消费产品和项目时获得积分。推荐人身份可以分为“**客户**”或“**员工**”两种情况设置获得积分比例；<br/>

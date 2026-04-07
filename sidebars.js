@@ -4,12 +4,12 @@ const sidebars = {
     {
       type: 'doc',
       id: 'intro',
-      label: '开始使用',
+      label: '🚀 开始使用',
     },
 
     {
       type: 'category',
-      label: '系统介绍',
+      label: '📖 系统介绍',
       items: [
         'system/system-intro',
         'system/training-process',
@@ -18,7 +18,7 @@ const sidebars = {
 
      {
       type: 'category',
-      label: '基础功能',
+      label: '🧩 基础功能',
       items: [
          {
             type: 'category',
@@ -51,7 +51,7 @@ const sidebars = {
 
     {
       type: 'category',
-      label: '前台操作',
+      label: '🖥️ 前台操作',
       items: [
         'pos/cashier',
         'pos/order',
@@ -60,7 +60,7 @@ const sidebars = {
 
     {
       type: 'category',
-      label: '后台管理',
+      label: '🗂️ 后台管理',
       items: 
       [
          {
@@ -84,7 +84,7 @@ const sidebars = {
 
     {
       type: 'category',
-      label: '高级配置',
+      label: '🧠 高级配置',
       items: [
 
         {type: 'category',
@@ -105,7 +105,7 @@ const sidebars = {
 
     {
       type: 'category',
-      label: '常见问题',
+      label: '❓ 常见问题',
       items: [
         'faq/faq',
       ],
@@ -115,3 +115,4 @@ const sidebars = {
 };
 
 export default sidebars;
+

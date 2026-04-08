@@ -59,40 +59,40 @@ sidebar_position: 3
 
 **1.添加会员权益<br/>**
 • 在“MaSe”导航栏中打开“**设置**-**权益设置**-**会员权益**”功能，进入“**会员权益**”页面。<br/>
-![权益管理](/img/02settings/19settings.png)
+![权益管理](./images/02settings/19settings.png)
 • 首先点击右上角⚙️-**标签管理**，关闭自己不需要的标签，新建自己需要的标签。<br/>
-![权益管理](/img/02settings/20settings.png)
+![权益管理](./images/02settings/20settings.png)
 • 点击右上角“**添加**”按钮打开“**添加客户权益**”页面。填写“**客户权益编号**“，”**名称**“，选择“**权益类型**“，”**销售价格**“等相关内容，带有用红色”*️⃣“的为必填，其他为选填，完成后点击“**保存**”完成设置。<br/>
-![权益管理](/img/02settings/21settings.png)
+![权益管理](./images/02settings/21settings.png)
 
 **2.编辑会员权益<br/>**
 • 在“**会员权益**”页面，点击要修改的权益后的“**查看**”按钮。<br/>
-![权益管理](/img/02settings/23settings.png)
+![权益管理](./images/02settings/23settings.png)
 • 再点击右上角“**编辑**“按钮，打开“**编辑客户权益**”页面，修改里面的内容，完成后点击“**保存**”完成设置。<br/>
-![权益管理](/img/02settings/24settings.png)
+![权益管理](./images/02settings/24settings.png)
 
 **3.会员权益同步已购客户<br/>**
 • 修改**会员权益**后，修改的内容并**不会**自动同步给**已经售出**的权益，防止已售出的权益资料混乱，影响门店账务。<br/>
 • 如果需要**同步**修改内容到**已售权益**，在“**会员权益**”页面，点击要修改的权益后的“**查看**”按钮。<br/>
-![权益管理](/img/02settings/23settings.png)
+![权益管理](./images/02settings/23settings.png)
 • 再点击右上角“**同步已购客户**“按钮，“**选择想要同步的内容**”，点击右下角“**保存**”按钮”，已修改的内容便会**同步**到**已售权益**<br/>
-![权益管理](/img/02settings/27settings.png)
+![权益管理](./images/02settings/27settings.png)
 
 **4.快速设置会员权益<br/>**
 • 在“**会员权益**”页面，点击右上角的“**快速设置**”按钮，选择“**设置范围**“，选择“**设置内容**“，输入要设置的值，输入”**确认**“点击“**确定**”按钮，可以批量修改会员权益的内容。<br/>
-![权益管理](/img/02settings/25settings.png)
+![权益管理](./images/02settings/25settings.png)
 
 **5.导出会员权益<br/>**
 • 在“**会员权益**”页面，点击右上角的“**导出**”按钮，系统将自动导出所有会员权益为一个表格。<br/>
-![权益管理](/img/02settings/26settings.png)
+![权益管理](./images/02settings/26settings.png)
 • 在系统主页右上角“**⏬**”按钮处，下载刚刚导出的报表<br/>
-![权益管理](/img/02settings/10settings.png)
+![权益管理](./images/02settings/10settings.png)
 
 **6.停用会员权益<br/>**
 • 在“**会员权益**”页面，点击要修改的权益后的“**查看**”按钮。<br/>
-![权益管理](/img/02settings/23settings.png)
+![权益管理](./images/02settings/23settings.png)
 • 点击“**使用状态**”按钮，关闭使用状态，关闭按钮后，该权益在“**收银**”等业务页面都不会再显示，但不影响已售权益继续消耗。<br/>
-![权益管理](/img/02settings/27settings.png)
+![权益管理](./images/02settings/27settings.png)
 
 ---
 

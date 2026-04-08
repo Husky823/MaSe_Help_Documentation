@@ -62,6 +62,6 @@ sidebar_position: 6
 
 ## 图片说明
 
-![今日预约](/img/01home/06home.png)
+![今日预约](./images/01home/06home.png)
 
 ---

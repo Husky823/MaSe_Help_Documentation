@@ -62,24 +62,24 @@ sidebar_position: 2
 
 **1.添加用户账号<br/>**
 • 在“MaSe”导航栏中打开“**设置-基础设置-用户权限**”功能，进入“**用户权限**”页面。<br/>
-![用户权限](/img/05backend/01backend.png)
+![用户权限](./images/01userpermissions/01backend.png)
 • 在“**用户权限**”页面，点击右上角“**新增账号**”，<br/>
 • 在“**添加账号**”页面，输入“**登录账号**”、“**登录密码**”、“**用户昵称**”，选择“**关联角色**”、“**绑定员工**”等内容后点击“**保存**”保存新账号。<br/>
-![用户权限](/img/05backend/07backend.png)
+![用户权限](./images/01userpermissions/07backend.png)
 
 **2.编辑用户账号权限<br/>**
 • 在“**用户权限**”页面，点击要修改的账号后的“**权限**”按钮，打开“**编辑权限**”页面，<br/>
 修改账号的权限内容，完成后点击“**保存**”完成设置。<br/>
-![用户权限](/img/05backend/08backend.png)
+![用户权限](./images/01userpermissions/08backend.png)
 
 **3.编辑用户账号信息<br/>**
 • 在“**用户权限**”页面，点击要修改的账号后的“**编辑**”按钮，打开“**编辑账号**”页面，<br/>
 修改账号内的内容，完成后点击“**保存**”完成设置。<br/>
-![用户权限](/img/05backend/09backend.png)
+![用户权限](./images/01userpermissions/09backend.png)
 
 **4.停用用户账号<br/>**
 • 在“**用户权限**”页面，点击要修改的账号后的“**状态**”按钮，关闭账号状态，<br/>
-![用户权限](/img/05backend/10backend.png)
+![用户权限](./images/01userpermissions/10backend.png)
 
 ---
 

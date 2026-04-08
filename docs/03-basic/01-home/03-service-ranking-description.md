@@ -36,7 +36,7 @@ sidebar_position: 3
 
 ## 图片说明
 
-![项目排行](/img/01home/03home.png)
+![项目排行](./images/01home/03home.png)
 
 ---
 

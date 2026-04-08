@@ -4,118 +4,208 @@ sidebar_position: 5
 ---
 
 # 工资单管理
+
+<div className="doc-tip-box">
+  <strong>核心说明：</strong>
+  工资单用于汇总员工在指定周期内的薪资构成、提成、小费、奖惩及实发金额，并支持导出和发布到员工端查看。
+</div>
+
 ## 功能说明
 
-**工资单**是MaSe系统中用于汇总员工在指定周期内（如月度）的**薪资构成**、**提成计算**、**扣款明细**及**实发金额**的正式报表。<br/>
+<ul className="mobile-list">
+  <li><strong>主要用途：</strong>自动汇总员工工资明细，支持导出 Excel，用于财务核算与工资发放。</li>
+  <li><strong>业绩关联：</strong>可自动关联业绩提成、小费、奖惩等数据，实时反映员工收入构成。</li>
+  <li><strong>员工查看：</strong>已发布的工资单会同步发送到员工端 <strong>MaSe Staff</strong> App，方便员工随时查看。</li>
+</ul>
 
-**作用包括**：<br/>
-自动生成员工工资明细，支持导出Excel用于财务发放；<br/>
-关联业绩提成方案，实时反映员工业绩，提成，小费等；<br/>
-会发送到员工的手机app作为通知。<br/>
+### 系统字段说明
+<div className="step-block">
+  <div className="step-title"></div>
 
-**系统提供字段解释**：<br/>
-    工作时长：系统中员工排班打卡考勤自动计算的上班时长；<br/>
-    考勤天数：系统中员工排班打卡考勤自动计算的上班天数；<br/>
-    账务天数：系统中改员工有服务收银单据的天数总和；<br/>
-    小费：系统中收银单给员工分配的小费金额总和；<br/>
-    实业绩：系统中收银单中该员工产生的业绩总和；<br/>
-    提成：系统中该员工通过业绩提成设置后得到的提成金额总和；<br/>
-    奖励：系统中通过“**员工奖惩**”给员工发放的奖励金额总和；<br/>
-    惩罚：系统中通过“**员工奖惩**”惩罚该员工的金额总和；<br/>
+  <ul className="key-list compact-list">
+    <li><strong>工作时长：</strong>系统根据员工排班、打卡考勤自动计算的上班总时长。</li>
+    <li><strong>考勤天数：</strong>系统根据员工排班、打卡考勤自动计算的上班天数。</li>
+    <li><strong>账务天数：</strong>员工在账务周期内有服务收银单据的天数总和。</li>
+    <li><strong>小费：</strong>系统中分配给该员工的小费金额总和。</li>
+    <li><strong>实业绩：</strong>收银单中该员工产生的业绩总和。</li>
+    <li><strong>提成：</strong>系统根据业绩提成规则计算出的提成金额总和。</li>
+    <li><strong>奖励：</strong>通过 <strong>员工奖惩</strong> 发放给员工的奖励金额总和。</li>
+    <li><strong>惩罚：</strong>通过 <strong>员工奖惩</strong> 扣减该员工的金额总和。</li>
+  </ul>
+</div>
 
-**操作路径**：设置 - 员工管理 - 工资单
-
----
+<div className="doc-note">
+  <strong>操作路径：</strong> 设置 → 员工管理 → 工资单
+</div>
 
 ## 操作视频
 
-<div style={{ margin: '16px 0' }}>
+<div className="video-block responsive-video">
   <iframe
-    width="100%"
-    height="500"
     src="https://www.youtube.com/embed/VSsU9MVqAEs"
     title="YouTube video player"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
     allowFullScreen
     referrerPolicy="strict-origin-when-cross-origin"
-    style={{ border: 0, borderRadius: '12px'}}
   />
 </div>
 
-<p style={{ marginTop: '12px', color:'#666'}}>
-  如视频无法播放（例如无痕模式或未登录 Google），请点击下方按钮前往 YouTube 登录观看。
-</p>
+<div className="video-tip">
+  如视频无法播放，请点击下方按钮前往 YouTube 登录观看。
+</div>
 
 <a
+  className="video-btn"
   href="https://www.youtube.com/watch?v=VSsU9MVqAEs"
   target="_blank"
   rel="noopener noreferrer"
-  style={{
-    display: 'inline-block',
-    marginTop: '8px',
-    padding: '10px 16px',
-    background: '#2e8555',
-    color: '#fff',
-    borderRadius: '8px',
-    textDecoration: 'none',
-    fontWeight: 'bold',
-  }}
 >
-  👉 打开 YouTube 观看（支持登录 / 全屏）
+  👉 打开 YouTube 观看
 </a>
-
----
 
 ## 操作步骤
 
-**1.新增工资单模版<br/>**
-• 在“MaSe”导航栏中打开“**设置-员工管理-工资单**”功能，进入“**工资单**”页面。<br/>
-![工资单](/img/05backend/11backend.png)
-• 在“**工资单**”页面，点击右上角“**模版设置**”，进入“**模版设置**”页面<br/>
-![工资单](/img/05backend/12backend.png)
-• 在“**模版设置**”页面，左侧点击”**添加**“按钮，输入“**模版名称**“，完成后点击”**保存**“。则可以创建新模版。<br/>
-![工资单](/img/05backend/13backend.png)
+<div className="step-block">
+  <div className="step-title">1. 新增工资单模板</div>
+  <div className="step-desc">
+    在 “MaSe” 导航栏中打开 <strong>设置 - 员工管理 - 工资单</strong>，进入工资单页面。
+  </div>
 
-**2.修改工资单模版内容<br/>**
-• 在“**模版设置**”页面，点击要修改的工资单模版，左上角会显示**已选择**的模版名称<br/>
-在模版中点击对应板块的”➕“好按钮即可添加不同条件，完成后点击“**保存**”完成设置。<br/>
-在**员工**栏位：点击可添加本工资单中要关联的员工信息；<br/>
-在**系统提供字段**：点击可添加系统中记录的员工相关的数据，<br/>
-如“**工作时长**”，“**账务天数**”，“**提成**”，”**奖励**“等员工工资相关数据；<br/>
-在**系统提供字段**：点击可添加系统中记录的员工相关的数据；<br/>
-在**工资增加项**：点击可添加工资增加字段，用于给员工发放奖励；<br/>
-在**工资扣减项**：点击可添加工资扣减字段，用于给员工扣减工资；<br/>
-![工资单](/img/05backend/14backend.png)
-• 设置完成后，点击右下角“**保存**”按钮，保存模版
+  ![工资单页面](./images/02staffattendance/11backend.png)
 
+  <div className="image-caption">图 1：进入工资单页面</div>
+</div>
 
-**3.新建工资单<br/>**
-• 在“**工资单**”页面，点击右上角的“**新建工资单**”按钮，打开“**新建工资单**”页面，<br/>
-![工资单](/img/05backend/15backend.png)
-• 在“**新建工资单**”页面，选择“**模版**”，输入“**名称**”，选择“**账务日期**”。完成之后点击下方“**保存**”按钮，即可创建新的工资单。<br/>
-![工资单](/img/05backend/16backend.png)
-• 在“**工资单**”页面，找到新建的工资单，点击后方的“**查看**”按钮，打开工资单“**详情**”页面<br/>
-![工资单](/img/05backend/17backend.png)
-• 在工资单“**详情**”页面，点击右上方的“**编辑**”按钮，打开工资单“**详情编辑**”页面<br/>
-![工资单](/img/05backend/18backend.png)
-• 在工资单“**详情编辑**”页面，点击工资单上方的“**刷新**”按钮，会自动带入系统数据，输入其他工资相关栏位数值。输入完成后，点击“**保存**”按钮。<br/>
-![工资单](/img/05backend/19backend.png)
+<div className="step-block">
+  <div className="step-desc">
+    在 <strong>工资单</strong> 页面，点击右上角 <strong>模板设置</strong>，进入模板设置页面。
+  </div>
 
+  ![模板设置入口](./images/02staffattendance/12backend.png)
 
+  <div className="image-caption">图 2：点击模板设置</div>
+</div>
 
-**4.发布工资单<br/>**
-• 在“**工资单**”页面，点击要发布的工资单后的“**查看**”按钮，打开工资单“**详情**”页面，<br/>
-![工资单](/img/05backend/17backend.png)
-• 在工资单“**详情**”页面，点击右上方的“**发布**”按钮，点击“**确定**”发布这个工资单，即可以完成发布。<br/>
-![工资单](/img/05backend/20backend.png)
-• 工资单在发布之后，员工可以在“**MaSe Staff**”上“**管理-工资单**”中打开查看<br/>
-![工资单](/img/05backend/21backend.png)
+<div className="step-block">
+  <div className="step-desc">
+    在 <strong>模板设置</strong> 页面，左侧点击 <strong>添加</strong>，输入 <strong>模板名称</strong> 后点击 <strong>保存</strong>，即可创建新模板。
+  </div>
 
----
+  ![新增模板](./images/02staffattendance/13backend.png)
+
+  <div className="image-caption">图 3：新增工资单模板</div>
+</div>
+
+<div className="step-block">
+  <div className="step-title">2. 修改工资单模板内容</div>
+  <div className="step-desc">
+    在 <strong>模板设置</strong> 页面，点击需要修改的工资单模板，左上角会显示当前已选择的模板名称。
+  </div>
+  <div className="step-desc">
+    在模板中点击对应板块的 <strong>➕</strong> 按钮，可添加不同字段；设置完成后点击 <strong>保存</strong>。
+  </div>
+
+  <ul className="key-list compact-list">
+    <li><strong>员工：</strong>添加本工资单需要关联的员工信息。</li>
+    <li><strong>系统提供字段：</strong>添加系统中记录的员工工资相关数据，例如 <strong>工作时长</strong>、<strong>账务天数</strong>、<strong>提成</strong>、<strong>奖励</strong> 等。</li>
+    <li><strong>工资增加项：</strong>添加额外奖励或补贴项目。</li>
+    <li><strong>工资扣减项：</strong>添加工资扣减项目。</li>
+  </ul>
+
+  ![修改模板内容](./images/02staffattendance/14backend.png)
+
+  <div className="image-caption">图 4：设置工资单模板内容</div>
+</div>
+
+<div className="step-block">
+  <div className="step-title">3. 新建工资单</div>
+  <div className="step-desc">
+    在 <strong>工资单</strong> 页面，点击右上角 <strong>新建工资单</strong>，进入新建工资单页面。
+  </div>
+
+  ![新建工资单](./images/02staffattendance/15backend.png)
+
+  <div className="image-caption">图 5：点击新建工资单</div>
+</div>
+
+<div className="step-block">
+  <div className="step-desc">
+    选择 <strong>模板</strong>，输入 <strong>名称</strong>，并设置 <strong>账务日期</strong>，完成后点击 <strong>保存</strong>，即可创建新的工资单。
+  </div>
+
+  ![填写工资单信息](./images/02staffattendance/16backend.png)
+
+  <div className="image-caption">图 6：填写工资单信息</div>
+</div>
+
+<div className="step-block">
+  <div className="step-desc">
+    创建完成后，在工资单列表中找到对应记录，点击后方的 <strong>查看</strong>，进入工资单详情页面。
+  </div>
+
+  ![查看工资单](./images/02staffattendance/17backend.png)
+
+  <div className="image-caption">图 7：查看工资单详情</div>
+</div>
+
+<div className="step-block">
+  <div className="step-desc">
+    在工资单详情页面，点击右上角 <strong>编辑</strong>，进入工资单详情编辑页面。
+  </div>
+
+  ![编辑工资单](./images/02staffattendance/18backend.png)
+
+  <div className="image-caption">图 8：编辑工资单</div>
+</div>
+
+<div className="step-block">
+  <div className="step-desc">
+    在详情编辑页面，点击上方的 <strong>刷新</strong> 按钮，系统会自动带入相关数据；补充其他工资字段后，点击 <strong>保存</strong>。
+  </div>
+
+  ![刷新并保存工资单](./images/02staffattendance/19backend.png)
+
+  <div className="image-caption">图 9：刷新并保存工资单</div>
+</div>
+
+<div className="step-block">
+  <div className="step-title">4. 发布工资单</div>
+  <div className="step-desc">
+    在工资单页面中，点击对应工资单后的 <strong>查看</strong>，进入工资单详情页面。
+  </div>
+
+  ![工资单详情](./images/02staffattendance/17backend.png)
+
+  <div className="image-caption">图 10：进入工资单详情页</div>
+</div>
+
+<div className="step-block">
+  <div className="step-desc">
+    在详情页面点击右上角 <strong>发布</strong>，再点击 <strong>确定</strong>，即可完成工资单发布。
+  </div>
+
+  ![发布工资单](./images/02staffattendance/20backend.png)
+
+  <div className="image-caption">图 11：发布工资单</div>
+</div>
+
+<div className="step-block">
+  <div className="step-desc">
+    发布后，员工可在 <strong>MaSe Staff</strong> 中通过 <strong>管理 - 工资单</strong> 查看已发布的工资单。
+  </div>
+
+  ![员工端查看工资单](./images/02staffattendance/21backend.png)
+
+  <div className="image-caption">图 12：员工端查看工资单</div>
+</div>
 
 ## 温馨提示
-1.工资单的”**账务日期**“在创建成功之后无法再进行修改；<br/>
-2.“**已发布**“的工资单，需要先在工资单详情内点击”**撤回发布**“才可以修改；<br/>
 
----
+<div className="doc-note">
+  <strong>注意 1：</strong> 工资单的 <strong>账务日期</strong> 在创建成功后不可修改。
+</div>
+
+<div className="doc-note">
+  <strong>注意 2：</strong> 已发布的工资单如需修改，需先在详情页中点击 <strong>撤回发布</strong>，再进行编辑。
+</div>

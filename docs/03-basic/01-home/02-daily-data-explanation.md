@@ -47,6 +47,6 @@ sidebar_position: 2
 
 ## 图片说明
 
-![每日数据](/img/01home/02home.png)
+![每日数据](./images/01home/02home.png)
 
 ---

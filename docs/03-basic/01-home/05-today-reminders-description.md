@@ -71,7 +71,7 @@ sidebar_position: 5
 
 ## 图片说明
 
-![今日提醒](/img/01home/05home.png)
+![今日提醒](./images/01home/05home.png)
 
 ---
 

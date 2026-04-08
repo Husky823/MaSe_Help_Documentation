@@ -59,40 +59,40 @@ sidebar_position: 4
 
 **1.添加代金券<br/>**
 • 在“MaSe”导航栏中打开“**设置**-**权益设置**-**代金券**”功能，进入“**代金券**”页面。<br/>
-![代金券](/img/02settings/29settings.png)
+![代金券](./images/02settings/29settings.png)
 • 首先点击右上角⚙️-**标签管理**，关闭自己不需要的标签，新建自己需要的标签。<br/>
-![代金券](/img/02settings/30settings.png)
+![代金券](./images/02settings/30settings.png)
 • 点击右上角“**新增**”按钮打开“**新增代金券**”页面。填写“**代金券编号**“，”**名称**“，选择“**代金券类型**“，”**销售价格**“等相关内容，带有用红色”*️⃣“的为必填，其他为选填，完成后点击“**保存**”完成设置。<br/>
-![代金券](/img/02settings/31settings.png)
+![代金券](./images/02settings/31settings.png)
 
 **2.编辑代金券<br/>**
 • 在“**代金券**”页面，点击要修改的代金券后的“**查看**”按钮。<br/>
-![代金券](/img/02settings/32settings.png)
+![代金券](./images/02settings/32settings.png)
 • 再点击右上角“**编辑**“按钮，打开“**编辑代金券**”页面，修改里面的内容，完成后点击“**保存**”完成设置。<br/>
-![代金券](/img/02settings/33settings.png)
+![代金券](./images/02settings/33settings.png)
 
 **3.代金券同步已购客户<br/>**
 • 修改**代金券**后，修改的内容并**不会**自动同步给**已经售出**的代金券，防止已售出的代金券资料混乱，影响门店账务。<br/>
 • 如果需要**同步**修改内容到**已售代金券**，在“**代金券**”页面，点击要修改的代金券后的“**查看**”按钮。<br/>
-![代金券](/img/02settings/32settings.png)
+![代金券](./images/02settings/32settings.png)
 • 再点击右上角“**同步已购客户**“按钮，“**选择想要同步的内容**”，点击右下角“**保存**”按钮，已修改的内容便会**同步**到**已售代金券**<br/>
-![代金券](/img/02settings/34settings.png)
+![代金券](./images/02settings/34settings.png)
 
 **4.快速设置代金券<br/>**
 • 在“**代金券**”页面，点击右上角的“**快速设置**”按钮，选择“**设置范围**“，选择“**设置内容**“，输入要设置的值，输入”**确认**“点击“**确定**”按钮，可以批量修改代金券的内容。<br/>
-![代金券](/img/02settings/35settings.png)
+![代金券](./images/02settings/35settings.png)
 
 **5.导出代金券<br/>**
 • 在“**代金券**”页面，点击右上角的“**导出**”按钮，系统将自动导出所有代金券为一个表格。<br/>
-![代金券](/img/02settings/36settings.png)
+![代金券](./images/02settings/36settings.png)
 • 在系统主页右上角“**⏬**”按钮处，下载刚刚导出的报表<br/>
-![代金券](/img/02settings/10settings.png)
+![代金券](./images/02settings/10settings.png)
 
 **6.停用代金券<br/>**
 • 在“**代金券**”页面，点击要修改的代金券后的“**查看**”按钮。<br/>
-![代金券](/img/02settings/32settings.png)
+![代金券](./images/02settings/32settings.png)
 • 点击“**使用状态**”按钮，关闭使用状态，关闭按钮后，该代金券在“**收银**”等业务页面都不会再显示，但不影响已售代金券继续消耗。<br/>
-![代金券](/img/02settings/37settings.png)
+![代金券](./images/02settings/37settings.png)
 
 ---
 

@@ -62,22 +62,22 @@ sidebar_position: 1
 
 **1.添加角色<br/>**
 • 在“MaSe”导航栏中打开“**设置-基础设置-用户权限**”功能，进入“**用户权限**”页面。<br/>
-![角色管理](/img/05backend/01backend.png)
+![角色管理](./images/01userpermissions/01backend.png)
 • 在“**用户权限**”页面，点击右上角“**角色管理**”，进入“**角色管理**”页面，在点击右上角“**新建角色**”。进入“**添加新角色**”页面<br/>
-![角色管理](/img/05backend/02backend.png)
-![角色管理](/img/05backend/03backend.png)
+![角色管理](./images/01userpermissions/02backend.png)
+![角色管理](./images/01userpermissions/03backend.png)
 • 在“**添加新角色**”页面，输入“**角色名称**”，设置“**可访问门店**”、“**MaSe权限**”、“**支付方式**”、“**特殊权限**”、“**管理端权限**”等内容后点击“**保存**”保存资料<br/>
-![角色管理](/img/05backend/04backend.png)
+![角色管理](./images/01userpermissions/04backend.png)
 
 
 **2.编辑角色<br/>**
 • 在“**角色管理**”页面，点击要修改的角色后的“**编辑**”按钮，修改里面的内容，完成后点击“**保存**”完成设置。<br/>
-![角色管理](/img/05backend/05backend.png)
+![角色管理](./images/01userpermissions/05backend.png)
 
 **3.同步角色权限<br/>**
 • 修改**角色权限**后，修改的内容并**不会**自动同步给**已经设置**的账号中，防止已设置的用户权限资料混乱，影响门店角色权限管理。<br/>
 • 如果需要**同步**修改内容到**已有的用户权限**，在“**角色管理**”页面，点击要同步的角色后的“**同步**”按钮。点击“**确定**”按钮，已修改的内容便会**同步**到**已有的账户**<br/>
-![角色管理](/img/05backend/06backend.png)
+![角色管理](./images/01userpermissions/06backend.png)
 
 ---
 

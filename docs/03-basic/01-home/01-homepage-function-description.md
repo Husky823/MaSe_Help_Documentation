@@ -10,7 +10,6 @@ sidebar_position: 1
 首页有快捷键可以快速跳转收银、预约、新增客户界面<br/>
 首页可以查看项目售出排行、员工服务排行等<br/>
 
-
 ---
 
 <!--
@@ -39,6 +38,6 @@ sidebar_position: 1
 
 ## 图片说明
 
-![首页说明](/img/01home/01home.png)
+![首页说明](./images/01home/01home.png)
 
 ---

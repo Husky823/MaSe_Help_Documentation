@@ -35,6 +35,6 @@ sidebar_position: 4
 
 ## 图片说明
 
-![员工排行](/img/01home/04home.png)
+![员工排行](./images/01home/04home.png)
 
 ---

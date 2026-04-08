@@ -177,131 +177,133 @@ img {
 -----------------------------------------------------------------------------------
 
 
-/* ===== 文档通用信息卡片 ===== */
-.doc-card {
-  background: #f7f8fa;
-  border: 1px solid #eceff3;
-  border-left: 4px solid #2e8555;
-  border-radius: 12px;
-  padding: 14px 16px;
-  margin: 12px 0;
-  line-height: 1.7;
-}
-
-.doc-card strong {
-  color: #1f2937;
-}
-
-/* ===== 重点提示块 ===== */
+.doc-tip-box,
 .doc-note {
-  background: #fff8e6;
-  border: 1px solid #f6d98b;
-  border-left: 4px solid #f0b429;
-  border-radius: 12px;
-  padding: 14px 16px;
-  margin: 14px 0;
+  margin: 12px 0;
+  padding: 12px 14px;
+  border-radius: 10px;
   line-height: 1.7;
 }
 
-/* ===== 成功/建议块 ===== */
-.doc-tip-box {
-  background: #edf8f1;
-  border: 1px solid #b7e4c7;
-  border-left: 4px solid #2e8555;
-  border-radius: 12px;
-  padding: 14px 16px;
-  margin: 14px 0;
-  line-height: 1.7;
+.mobile-list,
+.compact-list,
+.key-list {
+  margin: 10px 0 14px;
+  padding-left: 1.2rem;
 }
 
-/* ===== 步骤块 ===== */
+.mobile-list li,
+.compact-list li,
+.key-list li {
+  margin-bottom: 6px;
+  line-height: 1.75;
+}
+
 .step-block {
-  background: #ffffff;
-  border: 1px solid #eceff3;
-  border-radius: 12px;
-  padding: 16px;
   margin: 18px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  padding: 14px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  background: var(--ifm-background-surface-color);
 }
 
 .step-title {
-  font-size: 18px;
+  font-size: 1.05rem;
   font-weight: 700;
-  margin-bottom: 10px;
-  color: #1f2937;
+  margin-bottom: 8px;
 }
 
 .step-desc {
-  line-height: 1.8;
-  color: #374151;
+  margin: 6px 0 10px;
+  line-height: 1.75;
 }
 
-/* ===== 图片说明块 ===== */
-.image-block {
-  margin: 18px 0 24px;
-}
-
-.image-block img {
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+.doc-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 10px 0 6px;
+  border-radius: 10px;
 }
 
 .image-caption {
-  font-size: 13px;
-  color: #6b7280;
-  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--ifm-color-secondary-darkest);
+  margin-top: 2px;
+  text-align: center;
 }
 
-/* ===== 小标题分组 ===== */
-.doc-section-title {
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: 28px;
-  margin-bottom: 12px;
-  color: #111827;
-}
-
-/* ===== 关键信息列表 ===== */
-.key-list {
-  margin: 12px 0;
-  padding-left: 0;
-  list-style: none;
-}
-
-.key-list li {
-  background: #f9fafb;
-  border: 1px solid #eef2f7;
-  border-radius: 10px;
-  padding: 10px 12px;
-  margin-bottom: 8px;
-  line-height: 1.7;
-}
-
-/* ===== 视频区域 ===== */
 .video-block {
-  margin: 16px 0 24px;
+  margin: 12px 0;
+}
+
+.responsive-video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.responsive-video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
 }
 
 .video-tip {
-  margin-top: 12px;
-  color: #6b7280;
-  font-size: 14px;
+  margin: 8px 0 10px;
+  font-size: 0.95rem;
+  line-height: 1.7;
 }
 
 .video-btn {
   display: inline-block;
-  margin-top: 10px;
-  padding: 10px 16px;
-  background: #2e8555;
-  color: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 700;
+  margin-bottom: 8px;
 }
 
-.video-btn:hover {
-  background: #276f48;
-  color: #fff;
-  text-decoration: none;
+@media (max-width: 768px) {
+  .step-block {
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .step-title {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+
+  .step-desc {
+    margin: 4px 0 8px;
+    line-height: 1.7;
+  }
+
+  .doc-tip-box,
+  .doc-note {
+    margin: 10px 0;
+    padding: 10px 12px;
+    border-radius: 8px;
+  }
+
+  .mobile-list li,
+  .compact-list li,
+  .key-list li {
+    margin-bottom: 4px;
+    line-height: 1.7;
+  }
+
+  .doc-image {
+    margin: 8px 0 4px;
+    border-radius: 8px;
+  }
+
+  .image-caption {
+    font-size: 0.8rem;
+  }
+
+  .video-tip {
+    font-size: 0.9rem;
+  }
 }

@@ -56,35 +56,35 @@ sidebar_position: 2
 
 **1.添加产品<br/>**
 • 在“MaSe”导航栏中打开“**设置**-**基础设置**-**产品管理**”功能，进入**产品列表**”页面。<br/>
-![产品管理](/img/02settings/11settings.png)
+![产品管理](./images/02settings/11settings.png)
 • 首先点击右上角⚙️-**类别管理**，关闭自己不需要的类别，新建自己需要的类别。<br/>
-![产品管理](/img/02settings/12settings.png)
+![产品管理](./images/02settings/12settings.png)
 • 点击右上角“**新增**”按钮打开“**添加产品**”页面。填写“**产品名称**“，”**产品编号**“，“**产品类别**“，”**销售价格**“等相关内容，带有用红色”*️⃣“的为必填，其他为选填，完成后点击“**保存**”完成设置。<br/>
-![产品管理](/img/02settings/13settings.png)
+![产品管理](./images/02settings/13settings.png)
 
 **2.编辑产品<br/>**
 • 在“**产品列表**”页面，点击要修改的产品后的“**编辑**”按钮，修改里面的内容，完成后点击“**保存**”完成设置。<br/>
-![产品管理](/img/02settings/14settings.png)
+![产品管理](./images/02settings/14settings.png)
 
 **3.快速设置产品<br/>**
 • 在“**产品列表**”页面，点击右上角的“**快速设置**”按钮，选择“**设置范围**“，选择“**设置内容**“，输入要设置的值，输入”**确认**“点击“**确定**”按钮，可以批量修改产品的内容。<br/>
-![产品管理](/img/02settings/15settings.png)
+![产品管理](./images/02settings/15settings.png)
 
 **4.导出产品<br/>**
 • 在“**产品列表**”页面，点击右上角的“**导出为**”按钮，系统将自动导出所有产品为一个表格。<br/>
-![产品管理](/img/02settings/16settings.png)
+![产品管理](./images/02settings/16settings.png)
 • 在系统主页右上角“**⏬**”按钮处，下载刚刚导出的报表<br/>
-![产品管理](/img/02settings/10settings.png)
+![产品管理](./images/02settings/10settings.png)
 
 **5.停用产品<br/>**
 • 在“**产品列表**”页面，点击要修改的产品后的“**编辑**”按钮，进入“**编辑产品**“页面<br/>
-![产品管理](/img/02settings/14settings.png)
+![产品管理](./images/02settings/14settings.png)
 • 点击“**使用状态**”按钮，关闭使用状态，完成后点击“**保存**”完成设置。关闭按钮后，该产品在“**收银**”等业务页面都不会再显示，但不影响已购买权益继续消耗。<br/>
-![产品管理](/img/02settings/17settings.png)
+![产品管理](./images/02settings/17settings.png)
 
 **6.修改产品顺序<br/>**
 • 在“**产品列表**”页面，点击要修改的产品前的“**排序**”的数字，**数字越小，排序越靠前**，该顺序影响**门店收银，库存操作等**的产品展示顺序。<br/>
-![产品管理](/img/02settings/18settings.png)
+![产品管理](./images/02settings/18settings.png)
 
 ---
 

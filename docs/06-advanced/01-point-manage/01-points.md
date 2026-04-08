@@ -65,44 +65,44 @@ sidebar_position: 1
 
 **1.积分获取设置<br/>**
 • 在“MaSe”导航栏中打开“**设置-更多-积分规则**”功能，进入“**积分规则**”页面。<br/>
-![积分规则](/img/05backend/22backend.png)<br/>
+![积分规则](./images/01-point-manage/22backend.png)<br/>
 • 在“**积分规则**”页面的“**积分获取**“栏位，可以设置客户获取积分的路径和比率。<br/>
-![积分规则](/img/05backend/24backend.png)<br/>
+![积分规则](./images/01-point-manage/24backend.png)<br/>
 • 在“**积分获取**”栏位内，点击“**支付方式设置**”按钮可以设置各种支付方式支付的时候给予积分时候的折算比率，<br/>
 点击“**额外积分设置**”按钮可以设置积分叠加规则。<br/>
-![积分规则](/img/05backend/25backend.png)<br/>
+![积分规则](./images/01-point-manage/25backend.png)<br/>
 • 在“**积分规则**”页面，点击右下角“**保存**”按钮即可以保存设置。<br/>
-![积分规则](/img/05backend/35backend.png)<br/>
+![积分规则](./images/01-point-manage/35backend.png)<br/>
 
 **2.积分消耗设置<br/>**
 • 在“**积分规则**”页面的“**积分消耗**“栏位，可以设置客户消耗积分的路径和比率。<br/>
-![积分规则](/img/05backend/26backend.png)<br/>
+![积分规则](./images/01-point-manage/26backend.png)<br/>
 • 在“**积分消耗**”栏位内，点击“**积分兑换单独设置**”按钮可以单独设置比例不同的项目或产品。<br/>
-![积分规则](/img/05backend/27backend.png)<br/>
+![积分规则](./images/01-point-manage/27backend.png)<br/>
 • 在“**积分规则**”页面，点击右下角“**保存**”按钮即可以保存设置。<br/>
-![积分规则](/img/05backend/35backend.png)<br/>
+![积分规则](./images/01-point-manage/35backend.png)<br/>
 
 **3.积分有效期<br/>**
 • 在“**积分规则**”页面的“**有效期**“栏位，可以设置客户每笔积分的有效期时长。，<br/>
-![积分规则](/img/05backend/28backend.png)<br/>
+![积分规则](./images/01-point-manage/28backend.png)<br/>
 • 在“**积分规则**”页面，点击右下角“**保存**”按钮即可以保存设置。<br/>
-![积分规则](/img/05backend/35backend.png)<br/>
+![积分规则](./images/01-point-manage/35backend.png)<br/>
 
 **4.积分规则说明<br/>**
 • 在“**积分规则**”页面的“**积分规则说明**“栏位，可以设置给客户展示的积分规则内容，<br/>
-![积分规则](/img/05backend/29backend.png)<br/>
+![积分规则](./images/01-point-manage/29backend.png)<br/>
 • 在“**积分规则**”页面，点击右下角“**保存**”按钮即可以保存设置。<br/>
-![积分规则](/img/05backend/35backend.png)<br/>
+![积分规则](./images/01-point-manage/35backend.png)<br/>
 • “**积分规则说明**“开启后，客人可以在手机APP“**MaSe**”上“**我的 - 积分 - 积分规则**”中看到内容<br/>
-![积分规则](/img/05backend/30backend.png)<br/>
+![积分规则](./images/01-point-manage/30backend.png)<br/>
 
 **5.查询客户积分<br/>**
 • • 在“MaSe”导航栏中打开“**客户资料**”页面，点击要查询积分的客户信息后的“**查询**”按钮，打开“**客户详情**”页面。<br/>
-![积分规则](/img/05backend/36backend.png)<br/>
+![积分规则](./images/01-point-manage/36backend.png)<br/>
 • 在“**客户详情**”页面，点击“**积分余额**”按钮。打开“**积分详情**”页面，可以看到“**积分变动的明细**“和”**积分的有效期**“<br/>
-![积分规则](/img/05backend/37backend.png)<br/>
+![积分规则](./images/01-point-manage/37backend.png)<br/>
 • 在“**客户详情**”页面，点击“**积分**”板块的“**编辑**”按钮。打开“**积分手动调整**”页面，可以”**增加或减少**”客户的积分余额。<br/>
-![积分规则](/img/05backend/38backend.png)<br/>
+![积分规则](./images/01-point-manage/38backend.png)<br/>
 
 ---
 
@@ -112,14 +112,14 @@ sidebar_position: 1
 1️⃣”新增客户获得积分”：新添加的客户信息将自动获得积分；<br/>
 2️⃣”启用产品、项目、权益管理中的积分设置”：如产品，项目，权益管理中单独设置了积分规则，则优先走对应栏位内的设置；<br/>
 • 项目积分设置：“**设置-基础设置-项目管理-编辑项目-设置-积分获取规则**”；<br/>
-![积分规则](/img/05backend/31backend.png)<br/>
+![积分规则](./images/01-point-manage/31backend.png)<br/>
 • 产品积分设置：“**设置-基础设置-产品管理-编辑产品-积分获取规则**”；<br/>
-![积分规则](/img/05backend/32backend.png)<br/>
+![积分规则](./images/01-point-manage/32backend.png)<br/>
 • 权益积分设置：“**设置-权益设置-会员权益-编辑客户权益-积分获取规则**”；<br/>
-![积分规则](/img/05backend/33backend.png)<br/>
+![积分规则](./images/01-point-manage/33backend.png)<br/>
 • “**代金券**”，“**套餐**”，“**礼品卡**”积分设置方法和“”**权益积分**“设置类似。<br/>
 3️⃣”仅已激活会员积分”：只有在“**客户 - 客户详情 - 设置 - 激活会员状态**开启状态的客户才能获得积分；<br/>
-![积分规则](/img/05backend/23backend.png)<br/>
+![积分规则](./images/01-point-manage/23backend.png)<br/>
 4️⃣“[客户]产品/项目消费获积分”：客户可以在消费产品和项目时获得积分；<br/>
 5️⃣“[客户]客户权益/代金券/套餐办理获积分”：客户可以在购买权益/代金券/套餐时获得积分；<br/>
 6️⃣“[推荐人]产品/项目消费获积分”：推荐人可以在被推荐的客人消费产品和项目时获得积分。推荐人身份可以分为“客户”或“员工”两种情况设置获得积分比例；<br/>

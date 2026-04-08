@@ -77,6 +77,7 @@ const sidebars = {
             label: '员工考勤和绩效',
             items: [
               'backend/staff-attendance-performance/payroll',     
+              'backend/staff-attendance-performance/test5',   
             ],
           }                  
       ]

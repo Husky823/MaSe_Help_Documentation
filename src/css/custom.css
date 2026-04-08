@@ -57,6 +57,8 @@ img {
 
 }
 
+-----------------------------------------------------------------------------------
+
 /* ===== 侧边栏整体 ===== */
 .theme-doc-sidebar-container {
   border-right: 1px solid #f0f0f0;
@@ -170,4 +172,136 @@ img {
 
 .menu__list-item-collapsible + .menu__list-item-collapsible {
   margin-top: 12px;
+}
+
+-----------------------------------------------------------------------------------
+
+
+/* ===== 文档通用信息卡片 ===== */
+.doc-card {
+  background: #f7f8fa;
+  border: 1px solid #eceff3;
+  border-left: 4px solid #2e8555;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin: 12px 0;
+  line-height: 1.7;
+}
+
+.doc-card strong {
+  color: #1f2937;
+}
+
+/* ===== 重点提示块 ===== */
+.doc-note {
+  background: #fff8e6;
+  border: 1px solid #f6d98b;
+  border-left: 4px solid #f0b429;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin: 14px 0;
+  line-height: 1.7;
+}
+
+/* ===== 成功/建议块 ===== */
+.doc-tip-box {
+  background: #edf8f1;
+  border: 1px solid #b7e4c7;
+  border-left: 4px solid #2e8555;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin: 14px 0;
+  line-height: 1.7;
+}
+
+/* ===== 步骤块 ===== */
+.step-block {
+  background: #ffffff;
+  border: 1px solid #eceff3;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 18px 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.step-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.step-desc {
+  line-height: 1.8;
+  color: #374151;
+}
+
+/* ===== 图片说明块 ===== */
+.image-block {
+  margin: 18px 0 24px;
+}
+
+.image-block img {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.image-caption {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+/* ===== 小标题分组 ===== */
+.doc-section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+/* ===== 关键信息列表 ===== */
+.key-list {
+  margin: 12px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.key-list li {
+  background: #f9fafb;
+  border: 1px solid #eef2f7;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* ===== 视频区域 ===== */
+.video-block {
+  margin: 16px 0 24px;
+}
+
+.video-tip {
+  margin-top: 12px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.video-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: #2e8555;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.video-btn:hover {
+  background: #276f48;
+  color: #fff;
+  text-decoration: none;
 }

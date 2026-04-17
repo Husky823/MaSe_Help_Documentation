@@ -4,37 +4,41 @@ sidebar_position: 4
 ---
 
 # 员工排行
+
+<div className="doc-tip-box">
+  <strong>核心说明：</strong>
+  首页员工排行用于展示员工为门店带来的营业额排行情况。
+</div>
+
 ## 功能说明
 
-服首页上员工排行一栏的排序规则，是按照本月员工给门店带来的营业额，从高到低排序的。记录员工给门店带来的营业额，需要在收银界面选择对应的服务/销售员工。<br/>
+<div className="step-block">
 
----
+  <div className="step-desc">
+    员工排行模块用于统计本月员工为门店带来的营业额，并进行从高到低排序展示。
+  </div>
 
-## 功能入口
+  <ul className="key-list compact-list">
+    <li>首页员工排行一栏的排序规则，是按照本月员工给门店带来的营业额，从高到低排序</li>
+    <li>记录员工给门店带来的营业额，需要在收银界面选择对应的服务/销售员工</li>
+  </ul>
 
-进入路径：
+  <div style={{ marginTop: '12px', fontSize: '14px', color: '#666' }}>
+    <strong>操作路径：</strong> 系统后台 → 首页 → 员工排行
+  </div>
 
-**系统后台** → **首页** → **员工排行**
-
----
-
-<!--
-## 操作视频
-
-<iframe
-  width="100%"
-  height="500"
-  src="https://www.youtube.com/embed/rx2PJ2qN9AI"
-  title="YouTube video"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
--->
-
+</div>
 
 ## 图片说明
 
-![员工排行](./images/01home/04home.png)
+<div className="step-block">
 
----
+  <div className="step-desc">
+    员工排行模块用于展示员工营业额排名情况。
+  </div>
+
+  ![员工排行](./images/01home/04home.png)
+
+  <div className="image-caption">图 1：员工排行展示</div>
+
+</div>

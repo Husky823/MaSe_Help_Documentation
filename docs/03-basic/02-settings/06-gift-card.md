@@ -4,92 +4,186 @@ sidebar_position: 6
 ---
 
 # 礼品卡管理
-## 功能说明
 
-“**礼品卡**”分为**金额抵用**和**次数**抵用，主要用于门店设置优惠促销活动，礼品卡可以**免费赠送**或者**销售**给顾客，顾客到店消费时使用礼品卡进行抵扣。<br/>
-
-**礼品卡共有两个分类**：
-**金额礼品卡（储值型）**：设置面值和售价，客户消费时可按实际金额抵扣，支持**多次使用**，直至余额用完。<br/>
-**次数礼品卡（次卡型）**：仅需设置售价，客户每次到店消费可抵扣一次项目或产品，仅限**使用一次**。<br/>
-
----
-
-## 操作视频
-
-<div style={{ margin: '16px 0' }}>
-  <iframe
-    width="100%"
-    height="500"
-    src="https://www.youtube.com/embed/1CtIqS8O-ec"
-    title="YouTube video player"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-    allowFullScreen
-    referrerPolicy="strict-origin-when-cross-origin"
-    style={{ border: 0, borderRadius: '12px'}}
-  />
+<!-- ====================== 核心说明 ====================== -->
+<div className="doc-tip-box">
+  <strong>核心说明：</strong>
+  礼品卡用于门店促销及客户赠送，可通过金额或次数形式为顾客提供消费抵扣。
 </div>
 
-<p style={{ marginTop: '12px', color:'#666'}}>
-  如视频无法播放（例如无痕模式或未登录 Google），请点击下方按钮前往 YouTube 登录观看。
-</p>
+<!-- ====================== 功能说明 ====================== -->
+## 功能说明
 
-<a
-  href="https://www.youtube.com/watch?v=1CtIqS8O-ec"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    display: 'inline-block',
-    marginTop: '8px',
-    padding: '10px 16px',
-    background: '#2e8555',
-    color: '#fff',
-    borderRadius: '8px',
-    textDecoration: 'none',
-    fontWeight: 'bold',
-  }}
->
-  👉 打开 YouTube 观看（支持登录 / 全屏）
-</a>
+<ul className="mobile-list">
+  <li>
+    <strong>优惠工具：</strong>支持通过礼品卡进行金额或次数抵扣。
+  </li>
+  <li>
+    <strong>发放方式：</strong>可用于销售或免费赠送给顾客。
+  </li>
+  <li>
+    <strong>灵活使用：</strong>支持设置有效期及适用范围。
+  </li>
+</ul>
+
+<!-- ====================== 礼品卡类型说明 ====================== -->
+### 礼品卡类型说明
+
+<div className="step-block">
+  <ul className="key-list compact-list">
+    <li>
+      <strong>金额礼品卡（储值型）：</strong>
+      设置面值和售价，客户消费时可按实际金额抵扣，支持多次使用，直到余额用完。
+    </li>
+    <li>
+      <strong>次数礼品卡（次卡型）：</strong>
+      提供指定次数使用机会，每次消费扣减 1 次。
+    </li>
+  </ul>
+</div>
+
+<!-- ====================== 操作路径 ====================== -->
+<div className="doc-note">
+  <strong>操作路径：</strong> 设置 → 权益设置 → 礼品卡
+</div>
 
 ---
 
+<!-- ====================== 操作视频 ====================== -->
+## 操作视频
+
+<div className="video-card">
+  <div className="video-block responsive-video">
+    <iframe
+      src="https://www.youtube.com/embed/1CtIqS8O-ec"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+      allowFullScreen
+      referrerPolicy="strict-origin-when-cross-origin"
+    />
+  </div>
+
+  <div className="video-card-body">
+    <div className="video-card-text">
+      如视频无法播放，请点击下方按钮前往 YouTube 登录观看。
+    </div>
+
+    <a
+      className="video-btn"
+      href="https://www.youtube.com/watch?v=1CtIqS8O-ec"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      👉 打开 YouTube 观看
+    </a>
+  </div>
+</div>
+
+---
+
+<!-- ====================== 操作步骤 ====================== -->
 ## 操作步骤
 
-**1.添加礼品卡<br/>**
-• 在“MaSe”导航栏中打开“**设置**-**权益设置**-**礼品卡**”功能，进入**礼品卡**”页面。<br/>
-![礼品卡管理](./images/02settings/47settings.png)
-• 首先点击右上角⚙️-**类别管理**，关闭自己不需要的类别，新建自己需要的类别。<br/>
-![礼品卡管理](./images/02settings/48settings.png)
-• 点击右上角“**新增**”按钮打开“**新增礼品卡**”页面。填写“**礼品卡编号**“，”**名称**“，选择“**礼品卡类型**“，”**售价**“等相关内容，带有用红色”*️⃣“的为必填，其他为选填，完成后点击“**保存**”完成设置。<br/>
-![礼品卡管理](./images/02settings/49settings.png)
+### 1. 添加礼品卡
 
-**2.编辑礼品卡<br/>**
-• 在“**礼品卡**”页面，点击要修改的礼品卡后的“**查看**”按钮。<br/>
-![礼品卡管理](./images/02settings/51settings.png)
-• 再点击右上角“**编辑**“按钮，打开“**编辑礼品卡**”页面，修改里面的内容，完成后点击“**保存**”完成设置。<br/>
-![礼品卡管理](./images/02settings/52settings.png)
+<div className="step-block">
+  <div className="step-desc">
+    进入 <strong>设置 → 权益设置 → 礼品卡</strong> 页面。
+  </div>
 
-**3.礼品卡同步已购客户<br/>**
-• 修改**礼品卡**后，修改的内容并**不会**自动同步给**已经售出**的礼品卡，防止已售出的礼品卡资料混乱，影响门店账务。<br/>
-• 如果需要**同步**修改内容到**已售礼品卡**，在“**礼品卡**”页面，点击要修改的礼品卡后的“**查看**”按钮。<br/>
-![礼品卡管理](./images/02settings/51settings.png)
-• 再点击右上角“**同步已购客户**“按钮，“**选择想要同步的内容**”，点击右下角“**保存**”按钮，已修改的内容便会**同步**到**已售礼品卡**<br/>
-![礼品卡管理](./images/02settings/53settings.png)
+  ![礼品卡管理](./images/02settings/47settings.png)
+  <div className="image-caption">图 1：礼品卡列表</div>
 
-**4.快速设置礼品卡<br/>**
-• 在“**礼品卡**”页面，点击右上角的“**快速设置**”按钮，选择“**设置范围**“，选择“**设置内容**“，输入要设置的值，输入”**确认**“点击“**确定**”按钮，可以批量修改礼品卡的内容。<br/>
-![礼品卡管理](./images/02settings/54settings.png)
+  <div className="step-desc">
+    点击右上角 <strong>⚙️ 类别管理</strong>，新增或管理类别。
+  </div>
 
-**5.停用礼品卡<br/>**
-• 在“**礼品卡**”页面，点击要修改的礼品卡后的“**查看**”按钮。<br/>
-![礼品卡管理](./images/02settings/51settings.png)
-• 点击“**使用状态**”按钮，关闭使用状态，关闭按钮后，该礼品卡在“**收银**”等业务页面都不会再显示，但不影响已售礼品卡继续消耗。<br/>
-![礼品卡管理](./images/02settings/55settings.png)
+  ![礼品卡管理](./images/02settings/48settings.png)
+  <div className="image-caption">图 2：类别管理</div>
+
+  <div className="step-desc">
+    点击 <strong>新增</strong>，填写礼品卡编号、名称、礼品卡类型、售价等信息后保存。
+  </div>
+
+  ![礼品卡管理](./images/02settings/49settings.png)
+  <div className="image-caption">图 3：新增礼品卡</div>
+</div>
+
+### 2. 编辑礼品卡
+
+<div className="step-block">
+  <div className="step-desc">
+    点击礼品卡后的 <strong>查看</strong>，再点击 <strong>编辑</strong> 进行修改。
+  </div>
+
+  ![礼品卡管理](./images/02settings/51settings.png)
+  <div className="image-caption">图 4：查看礼品卡</div>
+
+  ![礼品卡管理](./images/02settings/52settings.png)
+  <div className="image-caption">图 5：编辑礼品卡</div>
+</div>
+
+### 3. 同步已购客户
+
+<div className="step-block">
+  <div className="step-desc">
+    修改不会自动影响已售礼品卡，如需同步，可使用 <strong>同步已购客户</strong> 功能。
+  </div>
+
+  ![礼品卡管理](./images/02settings/51settings.png)
+  <div className="image-caption">图 6：进入详情</div>
+
+  <div className="step-desc">
+    点击右上角 <strong>同步已购客户</strong>，选择要同步的内容后保存。
+  </div>
+
+  ![礼品卡管理](./images/02settings/53settings.png)
+  <div className="image-caption">图 7：同步设置</div>
+</div>
+
+### 4. 快速设置礼品卡
+
+<div className="step-block">
+  <div className="step-desc">
+    点击 <strong>快速设置</strong>，选择设置范围及内容后，可批量修改礼品卡资料。
+  </div>
+
+  ![礼品卡管理](./images/02settings/54settings.png)
+  <div className="image-caption">图 8：快速设置</div>
+</div>
+
+### 5. 停用礼品卡
+
+<div className="step-block">
+  <div className="step-desc">
+    在礼品卡详情中关闭 <strong>使用状态</strong>，该礼品卡将不再可用，但不影响已售礼品卡继续使用。
+  </div>
+
+  ![礼品卡管理](./images/02settings/51settings.png)
+  <div className="image-caption">图 9：进入详情</div>
+
+  ![礼品卡管理](./images/02settings/55settings.png)
+  <div className="image-caption">图 10：停用礼品卡</div>
+</div>
 
 ---
 
+<!-- ====================== 温馨提示 ====================== -->
 ## 温馨提示
-1. 系统中已经使用的礼品卡**不允许删除**；<br/>
 
----
+<div className="doc-note">
+  <strong>注意 1：</strong> 系统中已经使用的礼品卡不允许删除。
+</div>
+
+<div className="doc-note">
+  <strong>注意 2：</strong> 金额礼品卡支持多次消费抵扣，直到余额用完为止。
+</div>
+
+<div className="doc-note">
+  <strong>注意 3：</strong> 次数礼品卡会在每次消费后自动扣减 1 次。
+</div>
+
+<div className="doc-note">
+  <strong>注意 4：</strong> 停用礼品卡后，不会影响已经售出的礼品卡继续消费。
+</div>

@@ -1,43 +1,82 @@
 ---
-sidebar_position: 1
-title: MaSe 使用说明
+title: 页面标题
+sidebar_position: 数字
 ---
 
-# MaSe 系统使用手册
+# 页面主标题
 
-欢迎使用 **MaSe 管理系统**。
+<div className="doc-tip-box">
+  <strong>核心说明：</strong>
+  这里写一句总说明。
+</div>
 
-本手册将帮助您快速了解系统功能并完成日常操作。
+## 功能说明
 
----
+<ul className="mobile-list">
+  <li><strong>字段 1：</strong>说明内容</li>
+  <li><strong>字段 2：</strong>说明内容</li>
+  <li><strong>字段 3：</strong>说明内容</li>
+</ul>
 
-## 🚀 快速开始
+### 系统字段说明
+<div className="step-block">
+  <div className="step-title"></div>
 
-建议阅读顺序：
+  <ul className="key-list compact-list">
+    <li><strong>字段名：</strong>字段说明。</li>
+    <li><strong>字段名：</strong>字段说明。</li>
+  </ul>
+</div>
 
-1 系统介绍  
-2 基础功能  
-3 高级功能  
+<div className="doc-note">
+  <strong>操作路径：</strong> 菜单 → 子菜单 → 页面
+</div>
 
----
+## 操作视频
 
-## 📚 文档目录
+<div className="video-card">
+  <div className="video-block responsive-video">
+    <iframe
+      src="https://www.youtube.com/embed/视频ID"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+      allowFullScreen
+      referrerPolicy="strict-origin-when-cross-origin"
+    />
+  </div>
 
-### 系统介绍
-介绍系统基本结构与培训流程。
+  <div className="video-card-body">
+    <div className="video-card-text">
+      如视频无法播放，请点击下方按钮前往 YouTube 登录观看。
+    </div>
 
-### 基础功能
-介绍日常使用功能，例如：
+    <a
+      className="video-btn"
+      href="https://www.youtube.com/watch?v=视频ID"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      👉 打开 YouTube 观看
+    </a>
+  </div>
+</div>
 
-- 产品资料管理
-- 客户管理
-- 订单管理
+## 操作步骤
 
-### 高级功能
-介绍系统高级操作：
+<div className="step-block">
+  <div className="step-title">1. 步骤标题</div>
+  <div className="step-desc">
+    步骤说明文字。
+  </div>
 
-- 报表统计
-- 权限管理
+ <!-- ![图片说明](./images/对应文件夹/图片名.png) -->
 
-### 常见问题
-常见问题解决方案。
+  <div className="image-caption">图 1：图片说明</div>
+</div>
+
+## 温馨提示
+
+<div className="doc-note">
+  <strong>注意 1：</strong> 注意内容。
+</div>

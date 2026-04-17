@@ -4,96 +4,198 @@ sidebar_position: 5
 ---
 
 # 套餐管理
-## 功能说明
 
-“**套餐权益**”主要是用来设置一种店里推出的套餐，套餐的含义是：可以把**多个项目和产品**当作整体捆绑在一起销售给客户，同时以一个整体的价格更优惠的卖出。<br/>
-
----
-
-## 操作视频
-
-<div style={{ margin: '16px 0' }}>
-  <iframe
-    width="100%"
-    height="500"
-    src="https://www.youtube.com/embed/mVMh5HU41oA"
-    title="YouTube video player"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-    allowFullScreen
-    referrerPolicy="strict-origin-when-cross-origin"
-    style={{ border: 0, borderRadius: '12px'}}
-  />
+<!-- ====================== 核心说明 ====================== -->
+<div className="doc-tip-box">
+  <strong>核心说明：</strong>
+  套餐用于将多个项目或产品进行组合销售，以统一价格打包出售，帮助门店提升客单价并优化销售结构。
 </div>
 
-<p style={{ marginTop: '12px', color:'#666'}}>
-  如视频无法播放（例如无痕模式或未登录 Google），请点击下方按钮前往 YouTube 登录观看。
-</p>
+<!-- ====================== 功能说明 ====================== -->
+## 功能说明
 
-<a
-  href="https://www.youtube.com/watch?v=mVMh5HU41oA"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    display: 'inline-block',
-    marginTop: '8px',
-    padding: '10px 16px',
-    background: '#2e8555',
-    color: '#fff',
-    borderRadius: '8px',
-    textDecoration: 'none',
-    fontWeight: 'bold',
-  }}
->
-  👉 打开 YouTube 观看（支持登录 / 全屏）
-</a>
+<ul className="mobile-list">
+  <li>
+    <strong>组合销售：</strong>支持将多个项目或产品打包为一个套餐统一销售。
+  </li>
+  <li>
+    <strong>提升转化：</strong>通过优惠组合价格提升客户购买意愿与客单价。
+  </li>
+  <li>
+    <strong>灵活配置：</strong>支持设置套餐有效期、使用规则及内容组合方式。
+  </li>
+</ul>
+
+<!-- ====================== 套餐组合说明 ====================== -->
+### 套餐组合说明
+
+<div className="step-block">
+  <ul className="key-list compact-list">
+    <li>
+      <strong>单项：</strong>套餐中包含固定的项目或产品，客户购买后按设定内容逐项消费。
+    </li>
+    <li>
+      <strong>组合：</strong>套餐中提供多个项目或产品供客户选择，支持“多选一”等灵活组合方式。
+    </li>
+  </ul>
+</div>
+
+<!-- ====================== 操作路径 ====================== -->
+<div className="doc-note">
+  <strong>操作路径：</strong> 设置 → 权益设置 → 套餐
+</div>
 
 ---
 
+<!-- ====================== 操作视频 ====================== -->
+## 操作视频
+
+<div className="video-card">
+  <div className="video-block responsive-video">
+    <iframe
+      src="https://www.youtube.com/embed/mVMh5HU41oA"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+      allowFullScreen
+      referrerPolicy="strict-origin-when-cross-origin"
+    />
+  </div>
+
+  <div className="video-card-body">
+    <div className="video-card-text">
+      如视频无法播放，请点击下方按钮前往 YouTube 登录观看。
+    </div>
+
+    <a
+      className="video-btn"
+      href="https://www.youtube.com/watch?v=mVMh5HU41oA"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      👉 打开 YouTube 观看
+    </a>
+  </div>
+</div>
+
+---
+
+<!-- ====================== 操作步骤 ====================== -->
 ## 操作步骤
 
-**1.添加套餐<br/>**
-• 在“MaSe”导航栏中打开“**设置**-**权益设置**-**套餐**”功能，进入“**套餐**”页面。<br/>
-![套餐管理](./images/02settings/38settings.png)
-• 首先点击右上角⚙️-**标签管理**，关闭自己不需要的标签，新建自己需要的标签。<br/>
-![套餐管理](./images/02settings/39settings.png)
-• 点击右上角“**新增**”按钮打开“**添加套餐**”页面。填写“**套餐编号**“，”**套餐名称**“，选择“**有效类型**“，”**分配**“等相关内容，带有用红色”*️⃣“的为必填，其他为选填，完成后点击“**保存**”完成设置。<br/>
-![套餐管理](./images/02settings/40settings.png)
+### 1. 添加套餐
 
-**2.编辑套餐<br/>**
-• 在“**套餐**”页面，点击要修改的套餐后的“**查看**”按钮。<br/>
-![套餐管理](./images/02settings/41settings.png)
-• 再点击右上角“**编辑**“按钮，打开“**套餐编辑**”页面，修改里面的内容，完成后点击“**保存**”完成设置。<br/>
-![套餐管理](./images/02settings/42settings.png)
+<div className="step-block">
+  <div className="step-desc">
+    进入 <strong>设置 → 权益设置 → 套餐</strong> 页面。
+  </div>
 
-**3.套餐同步已购客户<br/>**
-• 修改**套餐**后，修改的内容并**不会**自动同步给**已经售出**的套餐，防止已售出的套餐资料混乱，影响门店账务。<br/>
-• 如果需要**同步**修改内容到**已售套餐**，在“**套餐**”页面，点击要修改的套餐后的“**查看**”按钮。<br/>
-![套餐管理](./images/02settings/41settings.png)
-• 再点击右上角“**同步已购客户**“按钮，“**选择想要同步的内容**”，点击右下角“**保存**”按钮，已修改的内容便会**同步**到**已售套餐**<br/>
-![套餐管理](./images/02settings/43settings.png)
+  ![套餐管理](./images/02settings/38settings.png)
+  <div className="image-caption">图 1：套餐列表</div>
 
-**4.快速设置套餐<br/>**
-• 在“**套餐**”页面，点击右上角的“**快速设置**”按钮，选择“**设置范围**“，选择“**设置内容**“，输入要设置的值，输入”**确认**“点击“**确定**”按钮，可以批量修改套餐的内容。<br/>
-![套餐管理](./images/02settings/44settings.png)
+  <div className="step-desc">
+    点击右上角 <strong>⚙️ 标签管理</strong>，新增或管理标签。
+  </div>
 
-**5.导出套餐<br/>**
-• 在“**套餐**”页面，点击右上角的“**导出为**”按钮，系统将自动导出所有套餐为一个表格。<br/>
-![套餐管理](./images/02settings/45settings.png)
-• 在系统主页右上角“**⏬**”按钮处，下载刚刚导出的报表<br/>
-![套餐管理](./images/02settings/10settings.png)
+  ![套餐管理](./images/02settings/39settings.png)
+  <div className="image-caption">图 2：标签管理</div>
 
-**6.停用套餐<br/>**
-• 在“**套餐**”页面，点击要修改的套餐后的“**查看**”按钮。<br/>
-![套餐管理](./images/02settings/41settings.png)
-• 点击“**使用状态**”按钮，关闭使用状态，关闭按钮后，该代金券在“**收银**”等业务页面都不会再显示，但不影响已售套餐继续消耗。<br/>
-![套餐管理](./images/02settings/46settings.png)
+  <div className="step-desc">
+    点击 <strong>新增</strong>，填写套餐编号、套餐名称、有效类型、分配规则等内容后保存。
+  </div>
+
+  ![套餐管理](./images/02settings/40settings.png)
+  <div className="image-caption">图 3：新增套餐</div>
+</div>
+
+### 2. 编辑套餐
+
+<div className="step-block">
+  <div className="step-desc">
+    点击套餐后的 <strong>查看</strong>，再点击 <strong>编辑</strong> 进行修改。
+  </div>
+
+  ![套餐管理](./images/02settings/41settings.png)
+  <div className="image-caption">图 4：查看套餐</div>
+
+  ![套餐管理](./images/02settings/42settings.png)
+  <div className="image-caption">图 5：编辑套餐</div>
+</div>
+
+### 3. 同步已购客户
+
+<div className="step-block">
+  <div className="step-desc">
+    修改不会自动影响已售套餐，如需同步，可使用 <strong>同步已购客户</strong> 功能。
+  </div>
+
+  ![套餐管理](./images/02settings/41settings.png)
+  <div className="image-caption">图 6：进入详情</div>
+
+  <div className="step-desc">
+    点击右上角 <strong>同步已购客户</strong>，选择需要同步的内容后保存。
+  </div>
+
+  ![套餐管理](./images/02settings/43settings.png)
+  <div className="image-caption">图 7：同步设置</div>
+</div>
+
+### 4. 快速设置套餐
+
+<div className="step-block">
+  <div className="step-desc">
+    点击 <strong>快速设置</strong>，选择设置范围及内容后，可批量修改套餐资料。
+  </div>
+
+  ![套餐管理](./images/02settings/44settings.png)
+  <div className="image-caption">图 8：快速设置</div>
+</div>
+
+### 5. 导出套餐
+
+<div className="step-block">
+  <div className="step-desc">
+    点击右上角 <strong>导出为</strong> 按钮，可将套餐资料导出为表格。
+  </div>
+
+  ![套餐管理](./images/02settings/45settings.png)
+  <div className="image-caption">图 9：导出套餐</div>
+
+  <div className="step-desc">
+    导出完成后，可在系统右上角下载导出的文件。
+  </div>
+
+  ![套餐管理](./images/02settings/10settings.png)
+  <div className="image-caption">图 10：下载文件</div>
+</div>
+
+### 6. 停用套餐
+
+<div className="step-block">
+  <div className="step-desc">
+    在套餐详情中关闭 <strong>使用状态</strong>，该套餐将不再可用，但不影响已售套餐继续使用。
+  </div>
+
+  ![套餐管理](./images/02settings/41settings.png)
+  <div className="image-caption">图 11：进入详情</div>
+
+  ![套餐管理](./images/02settings/46settings.png)
+  <div className="image-caption">图 12：停用套餐</div>
+</div>
 
 ---
 
+<!-- ====================== 温馨提示 ====================== -->
 ## 温馨提示
-1. 系统中已经使用的套餐**不允许删除**；<br/>
-2. 套餐销售价格是套餐明细中的项目销售价和产品销售价的**合计**价格；<br/>
-3. 套餐明细添加时的单项是指独立的项目或者产品，组合是指可以将项目或产品采用多选一的模式进行组合。<br/>
 
----
+<div className="doc-note">
+  <strong>注意 1：</strong> 系统中已经使用的套餐<strong>不允许删除</strong>。
+</div>
+
+<div className="doc-note">
+  <strong>注意 2：</strong> 套餐销售价格是套餐明细中的项目销售价和产品销售价的<strong>合计价格</strong>。
+</div>
+
+<div className="doc-note">
+  <strong>注意 3：</strong> 套餐明细添加时的单项是指独立的项目或者产品，组合是指可以将项目或产品采用<strong>多选一</strong>的模式进行组合。
+</div>

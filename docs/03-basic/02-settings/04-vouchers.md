@@ -4,99 +4,204 @@ sidebar_position: 4
 ---
 
 # 代金券管理
-## 功能说明
 
-“**代金券**”分为金额抵用和次数抵用，主要用于门店设置优惠促销活动，代金券可以免费赠送或者销售给顾客，顾客到店消费时使用代金券进行抵扣。<br/>
-
-**代金券共有两个分类**：<br/>
-**1.储值代金券**：客户购买或获赠后，账户中增加可抵扣的**固定金额**（如“50元代金券”），消费时按实际金额抵扣，支持设置有效期、单次抵扣上限等；<br/>
-**注：储值代金券只能使用一次，即使上次消费后有越剩余，也无法再次消费**<br/>
-**2.次数代金券**：客户购买或获赠后，获得指定服务项目的**免费使用次数**（如“1次美甲代金券”），每次消费对应项目时自动扣减1次，同样可设有效期及适用范围。<br/>
-
----
-
-## 操作视频
-
-<div style={{ margin: '16px 0' }}>
-  <iframe
-    width="100%"
-    height="500"
-    src="https://www.youtube.com/embed/NTWdGMAXLaU"
-    title="YouTube video player"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-    allowFullScreen
-    referrerPolicy="strict-origin-when-cross-origin"
-    style={{ border: 0, borderRadius: '12px'}}
-  />
+<!-- ====================== 核心说明 ====================== -->
+<div className="doc-tip-box">
+  <strong>核心说明：</strong>
+  代金券用于门店设置优惠促销活动，可通过金额或次数形式为顾客提供消费抵扣，支持赠送或销售使用。
 </div>
 
-<p style={{ marginTop: '12px', color:'#666'}}>
-  如视频无法播放（例如无痕模式或未登录 Google），请点击下方按钮前往 YouTube 登录观看。
-</p>
+<!-- ====================== 功能说明 ====================== -->
+## 功能说明
 
-<a
-  href="https://www.youtube.com/watch?v=NTWdGMAXLaU"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    display: 'inline-block',
-    marginTop: '8px',
-    padding: '10px 16px',
-    background: '#2e8555',
-    color: '#fff',
-    borderRadius: '8px',
-    textDecoration: 'none',
-    fontWeight: 'bold',
-  }}
->
-  👉 打开 YouTube 观看（支持登录 / 全屏）
-</a>
+<ul className="mobile-list">
+  <li>
+    <strong>营销工具：</strong>用于门店开展优惠活动，提升客户转化与复购。
+  </li>
+  <li>
+    <strong>灵活发放：</strong>支持免费赠送或销售给顾客使用。
+  </li>
+  <li>
+    <strong>消费抵扣：</strong>顾客到店消费时可使用代金券进行金额或次数抵扣。
+  </li>
+</ul>
+
+<!-- ====================== 代金券分类说明 ====================== -->
+### 代金券分类说明
+
+<div className="step-block">
+  <ul className="key-list compact-list">
+    <li>
+      <strong>储值代金券：</strong>
+      提供固定金额抵扣（如 50 元），消费时按金额扣减，仅可使用一次，即使有剩余金额也无法再次使用。
+    </li>
+    <li>
+      <strong>次数代金券：</strong>
+      提供指定项目的使用次数，每次消费自动扣减一次，适用于指定服务。
+    </li>
+  </ul>
+</div>
+
+<!-- ====================== 操作路径 ====================== -->
+<div className="doc-note">
+  <strong>操作路径：</strong> 设置 → 权益设置 → 代金券
+</div>
 
 ---
 
+<!-- ====================== 操作视频 ====================== -->
+## 操作视频
+
+<div className="video-card">
+  <div className="video-block responsive-video">
+    <iframe
+      src="https://www.youtube.com/embed/NTWdGMAXLaU"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+      allowFullScreen
+      referrerPolicy="strict-origin-when-cross-origin"
+    />
+  </div>
+
+  <div className="video-card-body">
+    <div className="video-card-text">
+      如视频无法播放，请点击下方按钮前往 YouTube 登录观看。
+    </div>
+
+    <a
+      className="video-btn"
+      href="https://www.youtube.com/watch?v=NTWdGMAXLaU"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      👉 打开 YouTube 观看
+    </a>
+  </div>
+</div>
+
+---
+
+<!-- ====================== 操作步骤 ====================== -->
 ## 操作步骤
 
-**1.添加代金券<br/>**
-• 在“MaSe”导航栏中打开“**设置**-**权益设置**-**代金券**”功能，进入“**代金券**”页面。<br/>
-![代金券](./images/02settings/29settings.png)
-• 首先点击右上角⚙️-**标签管理**，关闭自己不需要的标签，新建自己需要的标签。<br/>
-![代金券](./images/02settings/30settings.png)
-• 点击右上角“**新增**”按钮打开“**新增代金券**”页面。填写“**代金券编号**“，”**名称**“，选择“**代金券类型**“，”**销售价格**“等相关内容，带有用红色”*️⃣“的为必填，其他为选填，完成后点击“**保存**”完成设置。<br/>
-![代金券](./images/02settings/31settings.png)
+### 1. 添加代金券
 
-**2.编辑代金券<br/>**
-• 在“**代金券**”页面，点击要修改的代金券后的“**查看**”按钮。<br/>
-![代金券](./images/02settings/32settings.png)
-• 再点击右上角“**编辑**“按钮，打开“**编辑代金券**”页面，修改里面的内容，完成后点击“**保存**”完成设置。<br/>
-![代金券](./images/02settings/33settings.png)
+<div className="step-block">
+  <div className="step-desc">
+    进入 <strong>设置 → 权益设置 → 代金券</strong> 页面。
+  </div>
 
-**3.代金券同步已购客户<br/>**
-• 修改**代金券**后，修改的内容并**不会**自动同步给**已经售出**的代金券，防止已售出的代金券资料混乱，影响门店账务。<br/>
-• 如果需要**同步**修改内容到**已售代金券**，在“**代金券**”页面，点击要修改的代金券后的“**查看**”按钮。<br/>
-![代金券](./images/02settings/32settings.png)
-• 再点击右上角“**同步已购客户**“按钮，“**选择想要同步的内容**”，点击右下角“**保存**”按钮，已修改的内容便会**同步**到**已售代金券**<br/>
-![代金券](./images/02settings/34settings.png)
+  ![代金券](./images/02settings/29settings.png)
+  <div className="image-caption">图 1：代金券列表</div>
 
-**4.快速设置代金券<br/>**
-• 在“**代金券**”页面，点击右上角的“**快速设置**”按钮，选择“**设置范围**“，选择“**设置内容**“，输入要设置的值，输入”**确认**“点击“**确定**”按钮，可以批量修改代金券的内容。<br/>
-![代金券](./images/02settings/35settings.png)
+  <div className="step-desc">
+    点击右上角 <strong>⚙️ 标签管理</strong>，新增或关闭标签。
+  </div>
 
-**5.导出代金券<br/>**
-• 在“**代金券**”页面，点击右上角的“**导出**”按钮，系统将自动导出所有代金券为一个表格。<br/>
-![代金券](./images/02settings/36settings.png)
-• 在系统主页右上角“**⏬**”按钮处，下载刚刚导出的报表<br/>
-![代金券](./images/02settings/10settings.png)
+  ![代金券](./images/02settings/30settings.png)
+  <div className="image-caption">图 2：标签管理</div>
 
-**6.停用代金券<br/>**
-• 在“**代金券**”页面，点击要修改的代金券后的“**查看**”按钮。<br/>
-![代金券](./images/02settings/32settings.png)
-• 点击“**使用状态**”按钮，关闭使用状态，关闭按钮后，该代金券在“**收银**”等业务页面都不会再显示，但不影响已售代金券继续消耗。<br/>
-![代金券](./images/02settings/37settings.png)
+  <div className="step-desc">
+    点击 <strong>新增</strong>，填写代金券编号、名称、类型及销售价格等信息后保存。
+  </div>
+
+  ![代金券](./images/02settings/31settings.png)
+  <div className="image-caption">图 3：新增代金券</div>
+</div>
+
+### 2. 编辑代金券
+
+<div className="step-block">
+  <div className="step-desc">
+    点击代金券后的 <strong>查看</strong>，再点击 <strong>编辑</strong> 进行修改。
+  </div>
+
+  ![代金券](./images/02settings/32settings.png)
+  <div className="image-caption">图 4：查看代金券</div>
+
+  ![代金券](./images/02settings/33settings.png)
+  <div className="image-caption">图 5：编辑代金券</div>
+</div>
+
+### 3. 同步已购客户
+
+<div className="step-block">
+  <div className="step-desc">
+    修改代金券不会自动影响已售代金券，如需同步，可使用同步功能。
+  </div>
+
+  ![代金券](./images/02settings/32settings.png)
+  <div className="image-caption">图 6：进入详情</div>
+
+  <div className="step-desc">
+    点击 <strong>同步已购客户</strong>，选择同步内容后保存。
+  </div>
+
+  ![代金券](./images/02settings/34settings.png)
+  <div className="image-caption">图 7：同步设置</div>
+</div>
+
+### 4. 快速设置代金券
+
+<div className="step-block">
+  <div className="step-desc">
+    点击 <strong>快速设置</strong>，选择范围与内容后批量修改。
+  </div>
+
+  ![代金券](./images/02settings/35settings.png)
+  <div className="image-caption">图 8：快速设置</div>
+</div>
+
+### 5. 导出代金券
+
+<div className="step-block">
+  <div className="step-desc">
+    点击 <strong>导出</strong> 按钮导出数据。
+  </div>
+
+  ![代金券](./images/02settings/36settings.png)
+  <div className="image-caption">图 9：导出数据</div>
+
+  <div className="step-desc">
+    在系统右上角下载文件。
+  </div>
+
+  ![代金券](./images/02settings/10settings.png)
+  <div className="image-caption">图 10：下载文件</div>
+</div>
+
+### 6. 停用代金券
+
+<div className="step-block">
+  <div className="step-desc">
+    在代金券详情中关闭 <strong>使用状态</strong>，该代金券将不再可用，但不影响已售代金券继续使用。
+  </div>
+
+  ![代金券](./images/02settings/32settings.png)
+  <div className="image-caption">图 11：进入详情</div>
+
+  ![代金券](./images/02settings/37settings.png)
+  <div className="image-caption">图 12：停用代金券</div>
+</div>
 
 ---
 
+<!-- ====================== 温馨提示 ====================== -->
 ## 温馨提示
-1. 系统中已经使用的代金券**不允许删除**；<br/>
 
----
+<div className="doc-note">
+  <strong>注意 1：</strong> 系统中已经使用的代金券不允许删除。
+</div>
+
+<div className="doc-note">
+  <strong>注意 2：</strong> 储值代金券只能使用一次，即使消费后有剩余金额，也无法再次使用。
+</div>
+
+<div className="doc-note">
+  <strong>注意 3：</strong> 次数代金券仅适用于指定项目，每次消费后会自动扣减对应次数。
+</div>
+
+<div className="doc-note">
+  <strong>注意 4：</strong> 停用代金券后，不会影响已经售出的代金券继续消费。
+</div>

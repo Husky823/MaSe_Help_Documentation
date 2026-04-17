@@ -4,105 +4,236 @@ sidebar_position: 2
 ---
 
 # 推荐人功能设置
-## 功能说明
 
-**推荐人功能设置**用于在系统中建立客户与推荐人（可以是其他客户或员工）之间的关联关系，从而实现：<br/>
-
-• 推荐奖励自动计算：当被推荐客户完成消费，推荐人可按预设规则获得提成或积分；<br/>
-• 客户来源追踪：精准统计各渠道/人员带来的新客数量及转化效果；<br/>
-
-**操作路径**：设置 - 更多 - 积分规则
-
----
-<!--
-
-## 操作视频
-
-<div style={{ margin: '16px 0' }}>
-  <iframe
-    width="100%"
-    height="500"
-    src="https://www.youtube.com/embed/VSsU9MVqAEs"
-    title="YouTube video player"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-    allowFullScreen
-    referrerPolicy="strict-origin-when-cross-origin"
-    style={{ border: 0, borderRadius: '12px'}}
-  />
+<!-- ====================== 核心说明 ====================== -->
+<div className="doc-tip-box">
+  <strong>核心说明：</strong>
+  推荐人功能用于建立客户与推荐人之间的关联关系，帮助门店自动统计推荐来源，并根据消费或注册行为发放奖励。
 </div>
 
-<p style={{ marginTop: '12px', color:'#666'}}>
-  如视频无法播放（例如无痕模式或未登录 Google），请点击下方按钮前往 YouTube 登录观看。
-</p>
+<!-- ====================== 功能说明 ====================== -->
+## 功能说明
 
-<a
-  href="https://www.youtube.com/watch?v=VSsU9MVqAEs"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    display: 'inline-block',
-    marginTop: '8px',
-    padding: '10px 16px',
-    background: '#2e8555',
-    color: '#fff',
-    borderRadius: '8px',
-    textDecoration: 'none',
-    fontWeight: 'bold',
-  }}
->
-  👉 打开 YouTube 观看（支持登录 / 全屏）
-</a>
+<ul className="mobile-list">
+  <li>
+    <strong>推荐奖励：</strong>当被推荐客户完成消费或注册后，推荐人可获得积分或奖励。
+  </li>
+  <li>
+    <strong>来源追踪：</strong>可统计不同客户或员工带来的新客数量及转化情况。
+  </li>
+  <li>
+    <strong>自动计算：</strong>系统会根据积分规则自动计算推荐奖励，无需人工登记。
+  </li>
+</ul>
 
+<!-- ====================== 推荐奖励说明 ====================== -->
+### 推荐奖励说明
 
----
--->
+<div className="step-block">
+  <ul className="key-list compact-list">
+    <li>
+      <strong>推荐人消费奖励：</strong>被推荐客户消费产品、项目、客户权益、代金券或套餐时，推荐人可获得积分。
+    </li>
+    <li>
+      <strong>推荐注册奖励：</strong>推荐人通过分享邀请链接或二维码，邀请新客户注册成功后可获得奖励。
+    </li>
+    <li>
+      <strong>被推荐人奖励：</strong>被推荐客户完成注册认证后，也可获得系统设置的奖励。
+    </li>
+    <li>
+      <strong>推荐人身份：</strong>推荐人可分为客户或员工，两种身份可分别设置不同奖励比例。
+    </li>
+  </ul>
+</div>
 
+<!-- ====================== 操作路径 ====================== -->
+<div className="doc-note">
+  <strong>操作路径：</strong> 设置 → 更多 → 积分规则
+</div>
+
+<!-- ====================== 操作视频（暂不启用） ====================== -->
+{/*
+## 操作视频
+
+<div className="video-card">
+  <div className="video-block responsive-video">
+    <iframe
+      src="https://www.youtube.com/embed/VSsU9MVqAEs"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+      allowFullScreen
+      referrerPolicy="strict-origin-when-cross-origin"
+    />
+  </div>
+
+  <div className="video-card-body">
+    <div className="video-card-text">
+      如视频无法播放，请点击下方按钮前往 YouTube 登录观看。
+    </div>
+
+    <a
+      className="video-btn"
+      href="https://www.youtube.com/watch?v=VSsU9MVqAEs"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      👉 打开 YouTube 观看
+    </a>
+  </div>
+</div>
+*/}
+
+<!-- ====================== 操作步骤 ====================== -->
 ## 操作步骤
 
-**1.积分获取设置<br/>**
-• 在“MaSe”导航栏中打开“**设置-更多-积分规则**”功能，进入“**积分规则**”页面。<br/>
-![积分规则](./images/01-point-manage/22backend.png)
-• 在“**积分规则**”页面的“**积分获取**“栏位，设置“**[推荐人]产品/项目消费获积分**”，推荐人可以在“**被推荐的客人**“消费产品和项目时获得积分。推荐人身份可以分为“**客户**”或“**员工**”两种情况设置获得积分比例；<br/>
-• 设置“**[推荐人]客户权益/代金券/套餐办理获积分**”：推荐人可以在推荐的客人购买权益/代金券/套餐获得积分。推荐人身份可以分为“客户”或“员工”两种情况设置获得积分比例；<br/>
-• 设置”**推荐人奖励**“：当推荐人通过手机端邀请其他人在门店注册客户信息成功后，推荐人可以获得奖励；<br/>
-• 设置”**被推荐人奖励**“：当推荐人通过手机端邀请其他人在门店注册客户信息成功后，注册成功的客人可以获得奖励；<br/>
-![推荐人功能](./images/01-point-manage/34backend.png)
+<!-- ---------- 步骤 1：设置积分获取规则 ---------- -->
+### 1. 设置积分获取规则
+<div className="step-block">
+  <div className="step-title">1. 设置积分获取规则</div>
 
-**1.推荐人分享<br/>**
-• 在“MaSe”导航栏中打开“**设置-更多-积分规则**”功能，进入“**积分规则**”页面。<br/>
-![积分规则](./images/01-point-manage/22backend.png)
-• 在“**积分规则**”页面的“**积分获取**“栏位，设置“**[推荐人]产品/项目消费获积分**”，推荐人可以在“**被推荐的客人**“消费产品和项目时获得积分。推荐人身份可以分为“**客户**”或“**员工**”两种情况设置获得积分比例；<br/>
-![推荐人功能](./images/01-point-manage/34backend.png)
+  <div className="step-desc">
+    进入 <strong>设置 → 更多 → 积分规则</strong> 页面。
+  </div>
 
-**1.被推荐人领取<br/>**
-• 在“MaSe”导航栏中打开“**设置-更多-积分规则**”功能，进入“**积分规则**”页面。<br/>
-![积分规则](./images/01-point-manage/22backend.png)
-• 在“**积分规则**”页面的“**积分获取**“栏位，设置“**[推荐人]产品/项目消费获积分**”，推荐人可以在“**被推荐的客人**“消费产品和项目时获得积分。推荐人身份可以分为“**客户**”或“**员工**”两种情况设置获得积分比例；<br/>
-![推荐人功能](./images/01-point-manage/34backend.png)
+  ![积分规则](./images/01-point-manage/22backend.png)
+  <div className="image-caption">图 1：积分规则页面</div>
 
+  <div className="step-desc">
+    在 <strong>积分获取</strong> 栏位中，设置 <strong>[推荐人] 产品/项目消费获积分</strong>，推荐人可在被推荐客户消费产品或项目时获得积分。
+  </div>
 
----
+  <div className="step-desc">
+    推荐人身份可分为 <strong>客户</strong> 或 <strong>员工</strong>，分别设置不同积分比例。
+  </div>
 
+  <div className="step-desc">
+    设置 <strong>[推荐人] 客户权益/代金券/套餐办理获积分</strong>，推荐人可在被推荐客户购买权益、代金券或套餐时获得积分。
+  </div>
+
+  <div className="step-desc">
+    设置 <strong>推荐人奖励</strong>，当推荐人通过手机端邀请其他人注册成功后可获得奖励。
+  </div>
+
+  <div className="step-desc">
+    设置 <strong>被推荐人奖励</strong>，当被推荐客户完成注册后，也可获得系统设置的奖励。
+  </div>
+
+  ![推荐人功能](./images/01-point-manage/34backend.png)
+  <div className="image-caption">图 2：推荐人积分规则设置</div>
+</div>
+
+<!-- ---------- 步骤 2：推荐人分享邀请 ---------- -->
+### 2. 推荐人分享邀请
+<div className="step-block">
+  <div className="step-title">2. 推荐人分享邀请</div>
+
+  <div className="step-desc">
+    在 <strong>MaSe 手机端 APP</strong> 或 <strong>门店预约链接</strong> 中，进入首页并打开对应门店详情。
+  </div>
+
+  ![积分规则](./images/01-point-manage/01point.png)
+  <div className="image-caption">图 3：门店详情页</div>
+
+  <div className="step-desc">
+    点击 <strong>分享</strong> 按钮，打开邀请链接及邀请二维码。
+  </div>
+
+  ![积分规则](./images/01-point-manage/02point.png)
+  <div className="image-caption">图 4：邀请链接与二维码</div>
+
+  <div className="step-desc">
+    保存邀请二维码或邀请链接，并通过其他渠道发送给被推荐人。
+  </div>
+
+  <div className="step-desc">
+    推荐人可在 <strong>我的 → 推荐奖励</strong> 中查看被推荐人成功认证后的奖励。
+  </div>
+
+  ![积分规则](./images/01-point-manage/06point.png)
+  <div className="image-caption">图 5：推荐奖励页面</div>
+
+  <div className="step-desc">
+    在推荐奖励页面中可以查看获得奖励的日期及详细内容。
+  </div>
+
+  ![积分规则](./images/01-point-manage/07point.png)
+  <div className="image-caption">图 6：推荐奖励明细</div>
+</div>
+
+<!-- ---------- 步骤 3：被推荐人领取奖励 ---------- -->
+### 3. 被推荐人领取奖励
+<div className="step-block">
+  <div className="step-title">3. 被推荐人领取奖励</div>
+
+  <div className="step-desc">
+    被推荐人打开邀请二维码或邀请链接，进入 <strong>被推荐人信息填写</strong> 页面。
+  </div>
+
+  ![积分规则](./images/01-point-manage/03point.png)
+  <div className="image-caption">图 7：填写被推荐人信息</div>
+
+  <div className="step-desc">
+    输入相关信息并点击 <strong>提交</strong>，系统会要求输入邮箱验证码确认身份真实性。
+  </div>
+
+  ![积分规则](./images/01-point-manage/04point.png)
+  <div className="image-caption">图 8：邮箱验证码验证</div>
+
+  <div className="step-desc">
+    输入邮箱验证码并点击 <strong>确认</strong>，完成身份认证。
+  </div>
+
+  <div className="step-desc">
+    完成认证后，系统会自动推送获得的奖励。
+  </div>
+
+  ![积分规则](./images/01-point-manage/05point.png)
+  <div className="image-caption">图 9：奖励发放提示</div>
+
+  <div className="step-desc">
+    被推荐人可在 <strong>我的</strong> 页面中的个人剩余板块查看获得的奖励。
+  </div>
+
+  ![积分规则](./images/01-point-manage/08point.png)
+  <div className="image-caption">图 10：查看奖励</div>
+</div>
+
+<!-- ---------- 步骤 4：被推荐人消费推荐人获得积分 ---------- -->
+### 4：被推荐人消费推荐人获得积分
+<div className="step-block">
+  <div className="step-title">4：被推荐人消费推荐人获得积分</div>
+
+  <div className="step-desc">
+    被推荐人在门店消费之后，推荐人可在 <strong>MaSe 手机端 APP </strong> 或 <strong>门店预约链接</strong> 中，点击 <strong>我的 - 积分</strong> 栏位，
+  </div>
+
+  ![积分规则](./images/01-point-manage/09point.png)
+  <div className="image-caption">图 11：进入积分页面</div>
+
+  <div className="step-desc">
+    查看根据系统后台设定获得的 <strong>推荐人积分奖励</strong> 明细。
+  </div>
+
+  ![积分规则](./images/01-point-manage/10point.png)
+  <div className="image-caption">图 12：推荐人积分奖励明细</div>
+</div>
+
+<!-- ====================== 温馨提示 ====================== -->
 ## 温馨提示
-1.在“**积分规则**”页面，“**积分获取**”内选项解释：<br/>
-1️⃣”新增客户获得积分”：新添加的客户信息将自动获得积分；<br/>
-2️⃣”启用产品、项目、权益管理中的积分设置”：如产品，项目，权益管理中单独设置了积分规则，则优先走对应栏位内的设置；<br/>
-• 项目积分设置：“**设置-基础设置-项目管理-编辑项目-设置-积分获取规则**”；<br/>
-![积分规则](./images/01-point-manage/31backend.png)<br/>
-• 产品积分设置：“**设置-基础设置-产品管理-编辑产品-积分获取规则**”；<br/>
-![积分规则](./images/01-point-manage/32backend.png)<br/>
-• 权益积分设置：“**设置-权益设置-会员权益-编辑客户权益-积分获取规则**”；<br/>
-![积分规则](./images/01-point-manage/33backend.png)<br/>
-• “**代金券**”，“**套餐**”，“**礼品卡**”积分设置方法和“”**权益积分**“设置类似。<br/>
-3️⃣”仅已激活会员积分”：只有在“**客户 - 客户详情 - 设置 - 激活会员状态**开启状态的客户才能获得积分；<br/>
-![积分规则](./images/01-point-manage/23backend.png)
-4️⃣“[客户]产品/项目消费获积分”：客户可以在消费产品和项目时获得积分；<br/>
-5️⃣“[客户]客户权益/代金券/套餐办理获积分”：客户可以在购买权益/代金券/套餐时获得积分；<br/>
-6️⃣“[推荐人]产品/项目消费获积分”：推荐人可以在推荐的客人消费产品和项目时获得积分。推荐人身份可以分为“客户”或“员工”两种情况设置获得积分比例；<br/>
-7️⃣“[推荐人]客户权益/代金券/套餐办理获积分”：推荐人可以在推荐的客人购买权益/代金券/套餐获得积分。推荐人身份可以分为“客户”或“员工”两种情况设置获得积分比例；<br/>
-8️⃣“推荐人奖励”：当推荐人通过手机端邀请其他人在门店注册客户信息成功后，推荐人可以获得奖励；<br/>
-9️⃣“被推荐人奖励”：当推荐人通过手机端邀请其他人在门店注册客户信息成功后，注册成功的客人可以获得奖励；<br/>
-🔟“新建客户奖励”：客户通过任何渠道在门店注册客户信息都可获得奖励；<br/>
 
----
+<div className="doc-note">
+  <strong>注意 1：</strong> 推荐奖励需先在积分规则中完成设置，否则推荐成功后不会自动发放积分或奖励。
+</div>
+
+<div className="doc-note">
+  <strong>注意 2：</strong> 推荐人可分为客户或员工，两种身份可分别设置不同奖励比例。
+</div>
+
+<div className="doc-note">
+  <strong>注意 3：</strong> 被推荐人需完成邮箱验证码认证后，系统才会判定推荐成功并发放奖励。
+</div>
+
+<div className="doc-note">
+  <strong>注意 4：</strong> 同一客户通常只能绑定一个推荐人，绑定后不可重复归属到其他推荐人。
+</div>

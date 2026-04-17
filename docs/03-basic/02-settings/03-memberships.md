@@ -4,101 +4,204 @@ sidebar_position: 3
 ---
 
 # 会员权益管理
-## 功能说明
 
-“**会员权益**”是指顾客充值会员卡后消费项目、产品时可以享受一些特殊折扣，主要用于用于设置店里的会员卡充值权益，以及该种类的会员卡充值后的有效期限、标准售价、储值金额、享受折扣等。<br/>
-
-**会员权益共有三个分类**：<br/>
-**1.储值卡**：客户预存一定金额到账户，消费时按实际金额扣减，可设置赠金、有效期、适用范围等；<br/>
-**2.折扣卡**：客户持卡消费时享受指定项目/产品/权益的固定折扣（如8折），不涉及金额预存；<br/>
-**3.次卡（品项卡）**：客户购买后获得固定次数的服务权益（如“10次洗吹”），每次消费扣减1次，支持设置有效期及适用项目。<br/>
-
----
-
-## 操作视频
-
-<div style={{ margin: '16px 0' }}>
-  <iframe
-    width="100%"
-    height="500"
-    src="https://www.youtube.com/embed/jndhJLOq-sY"
-    title="YouTube video player"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-    allowFullScreen
-    referrerPolicy="strict-origin-when-cross-origin"
-    style={{ border: 0, borderRadius: '12px'}}
-  />
+<!-- ====================== 核心说明 ====================== -->
+<div className="doc-tip-box">
+  <strong>核心说明：</strong>
+  会员权益用于设置顾客充值会员卡后的消费规则与优惠方式，包括有效期限、售价、储值金额及折扣等内容，帮助门店灵活管理会员体系。
 </div>
 
-<p style={{ marginTop: '12px', color:'#666'}}>
-  如视频无法播放（例如无痕模式或未登录 Google），请点击下方按钮前往 YouTube 登录观看。
-</p>
+<!-- ====================== 功能说明 ====================== -->
+## 功能说明
 
-<a
-  href="https://www.youtube.com/watch?v=jndhJLOq-sY"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    display: 'inline-block',
-    marginTop: '8px',
-    padding: '10px 16px',
-    background: '#2e8555',
-    color: '#fff',
-    borderRadius: '8px',
-    textDecoration: 'none',
-    fontWeight: 'bold',
-  }}
->
-  👉 打开 YouTube 观看（支持登录 / 全屏）
-</a>
+<ul className="mobile-list">
+  <li>
+    <strong>会员管理工具：</strong>用于配置不同类型会员卡的消费规则与优惠方式。
+  </li>
+  <li>
+    <strong>灵活营销：</strong>支持通过储值、折扣或次数形式提升客户复购与粘性。
+  </li>
+  <li>
+    <strong>统一管理：</strong>所有会员权益集中管理，影响收银及会员消费流程。
+  </li>
+</ul>
+
+<!-- ====================== 会员权益分类说明 ====================== -->
+### 会员权益分类说明
+
+<div className="step-block">
+  <ul className="key-list compact-list">
+    <li>
+      <strong>储值卡：</strong>
+      客户预存金额到账户，消费时按余额扣减，可设置赠金、有效期及适用范围。
+    </li>
+    <li>
+      <strong>折扣卡：</strong>
+      客户消费时享受固定折扣（如 8 折），不涉及金额储值。
+    </li>
+    <li>
+      <strong>次卡（品项卡）：</strong>
+      客户获得固定次数服务，每次消费扣减次数。
+    </li>
+  </ul>
+</div>
+
+<!-- ====================== 操作路径 ====================== -->
+<div className="doc-note">
+  <strong>操作路径：</strong> 设置 → 权益设置 → 会员权益
+</div>
 
 ---
 
+<!-- ====================== 操作视频 ====================== -->
+## 操作视频
+
+<div className="video-card">
+  <div className="video-block responsive-video">
+    <iframe
+      src="https://www.youtube.com/embed/jndhJLOq-sY"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+      allowFullScreen
+      referrerPolicy="strict-origin-when-cross-origin"
+    />
+  </div>
+
+  <div className="video-card-body">
+    <div className="video-card-text">
+      如视频无法播放，请点击下方按钮前往 YouTube 登录观看。
+    </div>
+
+    <a
+      className="video-btn"
+      href="https://www.youtube.com/watch?v=jndhJLOq-sY"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      👉 打开 YouTube 观看
+    </a>
+  </div>
+</div>
+
+---
+
+<!-- ====================== 操作步骤 ====================== -->
 ## 操作步骤
 
-**1.添加会员权益<br/>**
-• 在“MaSe”导航栏中打开“**设置**-**权益设置**-**会员权益**”功能，进入“**会员权益**”页面。<br/>
-![权益管理](./images/02settings/19settings.png)
-• 首先点击右上角⚙️-**标签管理**，关闭自己不需要的标签，新建自己需要的标签。<br/>
-![权益管理](./images/02settings/20settings.png)
-• 点击右上角“**添加**”按钮打开“**添加客户权益**”页面。填写“**客户权益编号**“，”**名称**“，选择“**权益类型**“，”**销售价格**“等相关内容，带有用红色”*️⃣“的为必填，其他为选填，完成后点击“**保存**”完成设置。<br/>
-![权益管理](./images/02settings/21settings.png)
+### 1. 添加会员权益
 
-**2.编辑会员权益<br/>**
-• 在“**会员权益**”页面，点击要修改的权益后的“**查看**”按钮。<br/>
-![权益管理](./images/02settings/23settings.png)
-• 再点击右上角“**编辑**“按钮，打开“**编辑客户权益**”页面，修改里面的内容，完成后点击“**保存**”完成设置。<br/>
-![权益管理](./images/02settings/24settings.png)
+<div className="step-block">
+  <div className="step-desc">
+    进入 <strong>设置 → 权益设置 → 会员权益</strong> 页面。
+  </div>
 
-**3.会员权益同步已购客户<br/>**
-• 修改**会员权益**后，修改的内容并**不会**自动同步给**已经售出**的权益，防止已售出的权益资料混乱，影响门店账务。<br/>
-• 如果需要**同步**修改内容到**已售权益**，在“**会员权益**”页面，点击要修改的权益后的“**查看**”按钮。<br/>
-![权益管理](./images/02settings/23settings.png)
-• 再点击右上角“**同步已购客户**“按钮，“**选择想要同步的内容**”，点击右下角“**保存**”按钮”，已修改的内容便会**同步**到**已售权益**<br/>
-![权益管理](./images/02settings/27settings.png)
+  ![权益管理](./images/02settings/19settings.png)
+  <div className="image-caption">图 1：会员权益列表</div>
 
-**4.快速设置会员权益<br/>**
-• 在“**会员权益**”页面，点击右上角的“**快速设置**”按钮，选择“**设置范围**“，选择“**设置内容**“，输入要设置的值，输入”**确认**“点击“**确定**”按钮，可以批量修改会员权益的内容。<br/>
-![权益管理](./images/02settings/25settings.png)
+  <div className="step-desc">
+    点击右上角 <strong>⚙️ 标签管理</strong>，新增或关闭标签。
+  </div>
 
-**5.导出会员权益<br/>**
-• 在“**会员权益**”页面，点击右上角的“**导出**”按钮，系统将自动导出所有会员权益为一个表格。<br/>
-![权益管理](./images/02settings/26settings.png)
-• 在系统主页右上角“**⏬**”按钮处，下载刚刚导出的报表<br/>
-![权益管理](./images/02settings/10settings.png)
+  ![权益管理](./images/02settings/20settings.png)
+  <div className="image-caption">图 2：标签管理</div>
 
-**6.停用会员权益<br/>**
-• 在“**会员权益**”页面，点击要修改的权益后的“**查看**”按钮。<br/>
-![权益管理](./images/02settings/23settings.png)
-• 点击“**使用状态**”按钮，关闭使用状态，关闭按钮后，该权益在“**收银**”等业务页面都不会再显示，但不影响已售权益继续消耗。<br/>
-![权益管理](./images/02settings/27settings.png)
+  <div className="step-desc">
+    点击 <strong>添加</strong>，填写编号、名称、类型及销售价格等信息后保存。
+  </div>
+
+  ![权益管理](./images/02settings/21settings.png)
+  <div className="image-caption">图 3：新增会员权益</div>
+</div>
+
+### 2. 编辑会员权益
+
+<div className="step-block">
+  <div className="step-desc">
+    点击权益后的 <strong>查看</strong>，再点击 <strong>编辑</strong> 进行修改。
+  </div>
+
+  ![权益管理](./images/02settings/23settings.png)
+  <div className="image-caption">图 4：查看权益</div>
+
+  ![权益管理](./images/02settings/24settings.png)
+  <div className="image-caption">图 5：编辑权益</div>
+</div>
+
+### 3. 同步已购客户
+
+<div className="step-block">
+  <div className="step-desc">
+    修改不会自动影响已售权益，如需同步，可使用同步功能。
+  </div>
+
+  ![权益管理](./images/02settings/23settings.png)
+  <div className="image-caption">图 6：进入详情</div>
+
+  <div className="step-desc">
+    点击 <strong>同步已购客户</strong>，选择同步内容后保存。
+  </div>
+
+  ![权益管理](./images/02settings/27settings.png)
+  <div className="image-caption">图 7：同步设置</div>
+</div>
+
+### 4. 快速设置会员权益
+
+<div className="step-block">
+  <div className="step-desc">
+    点击 <strong>快速设置</strong>，选择范围与内容后批量修改。
+  </div>
+
+  ![权益管理](./images/02settings/25settings.png)
+  <div className="image-caption">图 8：快速设置</div>
+</div>
+
+### 5. 导出会员权益
+
+<div className="step-block">
+  <div className="step-desc">
+    点击 <strong>导出</strong> 按钮导出数据。
+  </div>
+
+  ![权益管理](./images/02settings/26settings.png)
+  <div className="image-caption">图 9：导出数据</div>
+
+  <div className="step-desc">
+    在系统右上角下载文件。
+  </div>
+
+  ![权益管理](./images/02settings/10settings.png)
+  <div className="image-caption">图 10：下载文件</div>
+</div>
+
+### 6. 停用会员权益
+
+<div className="step-block">
+  <div className="step-desc">
+    在详情中关闭 <strong>使用状态</strong>，该权益将不再可用，但不影响已售权益继续使用。
+  </div>
+
+  ![权益管理](./images/02settings/23settings.png)
+  <div className="image-caption">图 11：进入详情</div>
+
+  ![权益管理](./images/02settings/27settings.png)
+  <div className="image-caption">图 12：停用权益</div>
+</div>
 
 ---
 
+<!-- ====================== 温馨提示 ====================== -->
 ## 温馨提示
-1. 系统中已经使用的会员权益**不允许删除**；<br/>
-2. 会员权益中的项目折扣及产品折扣需要**输入0-10之间**的数字，如七五折输入7.5即可；<br/>
-3. “储值权益”顾客先储值后打折消费，“折扣权益”是指顾客以一定的价格购买权益后现金消费可享受折扣，“品项权益”是指顾客以一定的价格购买优惠项目，然后到店扣次消费。<br/>
 
----
+<div className="doc-note">
+  <strong>注意 1：</strong> 系统中已使用的会员权益不允许删除。
+</div>
+
+<div className="doc-note">
+  <strong>注意 2：</strong> 会员权益中的项目折扣及产品折扣需要输入 0 - 10 之间的数字，例如 7.5 表示七五折。
+</div>
+
+<div className="doc-note">
+  <strong>注意 3：</strong> 储值权益为顾客先储值后消费，折扣权益为顾客购买后消费时享受折扣，品项权益为顾客购买后按次数消费。
+</div>

@@ -4,128 +4,276 @@ sidebar_position: 1
 ---
 
 # 积分规则
-## 功能说明
 
-**积分规则**主要用于设定会员在系统中获取和消耗积分的计算方式与比例。<br/>
-
-**作用包括**：<br/>
-• 统一管理新增客户、消费、推荐等5类积分获取场景的开关与比率；<br/>
-• 支持自定义金额抵扣积分比例（如1元=10积分）；<br/>
-• 控制积分有效期，提升会员活跃度与复购率；<br/>
-• 与权益、产品、项目资料联动，实现差异化积分策略。<br/>
-
-**操作路径**：设置 - 更多 - 积分规则<br/>
-
----
-<!--
-
-## 操作视频
-
-<div style={{ margin: '16px 0' }}>
-  <iframe
-    width="100%"
-    height="500"
-    src="https://www.youtube.com/embed/VSsU9MVqAEs"
-    title="YouTube video player"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-    allowFullScreen
-    referrerPolicy="strict-origin-when-cross-origin"
-    style={{ border: 0, borderRadius: '12px'}}
-  />
+<!-- ====================== 核心说明 ====================== -->
+<div className="doc-tip-box">
+  <strong>核心说明：</strong>
+  积分规则用于设定会员积分的获取、消耗及有效期规则，是会员体系的重要组成部分。
 </div>
 
-<p style={{ marginTop: '12px', color:'#666'}}>
-  如视频无法播放（例如无痕模式或未登录 Google），请点击下方按钮前往 YouTube 登录观看。
-</p>
+<!-- ====================== 功能说明 ====================== -->
+## 功能说明
 
-<a
-  href="https://www.youtube.com/watch?v=VSsU9MVqAEs"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    display: 'inline-block',
-    marginTop: '8px',
-    padding: '10px 16px',
-    background: '#2e8555',
-    color: '#fff',
-    borderRadius: '8px',
-    textDecoration: 'none',
-    fontWeight: 'bold',
-  }}
->
-  👉 打开 YouTube 观看（支持登录 / 全屏）
-</a>
+<ul className="mobile-list">
+  <li><strong>积分获取：</strong>支持消费、推荐、新增客户等多种积分来源设置。</li>
+  <li><strong>积分消耗：</strong>支持按比例抵扣金额（如 1 元 = 10 积分）。</li>
+  <li><strong>有效期控制：</strong>可设置积分有效期，提升客户复购率。</li>
+  <li><strong>规则联动：</strong>支持与项目、产品、权益等模块联动设置。</li>
+</ul>
 
+<!-- ====================== 积分机制说明 ====================== -->
+### 积分机制说明
+
+<div className="step-block">
+  <ul className="key-list compact-list">
+    <li><strong>积分获取：</strong>通过消费、推荐、注册等行为获得积分。</li>
+    <li><strong>积分消耗：</strong>积分可用于抵扣消费金额。</li>
+    <li><strong>积分有效期：</strong>每笔积分可设置独立有效时间。</li>
+    <li><strong>积分展示：</strong>客户可在 App 中查看积分及规则说明。</li>
+  </ul>
+</div>
+
+<!-- ====================== 操作路径 ====================== -->
+<div className="doc-note">
+  <strong>操作路径：</strong> 设置 → 更多 → 积分规则
+</div>
 
 ---
--->
 
+<!-- ====================== 操作视频（暂不启用） ====================== -->
+{/*
+## 操作视频
+
+<div className="video-card">
+  <div className="video-block responsive-video">
+    <iframe
+      src="https://www.youtube.com/embed/VSsU9MVqAEs"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+      allowFullScreen
+      referrerPolicy="strict-origin-when-cross-origin"
+    />
+  </div>
+
+  <div className="video-card-body">
+    <div className="video-card-text">
+      如视频无法播放，请点击下方按钮前往 YouTube 登录观看。
+    </div>
+
+    <a
+      className="video-btn"
+      href="https://www.youtube.com/watch?v=VSsU9MVqAEs"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      👉 打开 YouTube 观看
+    </a>
+  </div>
+</div>
+*/}
+
+<!-- ====================== 操作步骤 ====================== -->
 ## 操作步骤
 
-**1.积分获取设置<br/>**
-• 在“MaSe”导航栏中打开“**设置-更多-积分规则**”功能，进入“**积分规则**”页面。<br/>
-![积分规则](./images/01-point-manage/22backend.png)<br/>
-• 在“**积分规则**”页面的“**积分获取**“栏位，可以设置客户获取积分的路径和比率。<br/>
-![积分规则](./images/01-point-manage/24backend.png)<br/>
-• 在“**积分获取**”栏位内，点击“**支付方式设置**”按钮可以设置各种支付方式支付的时候给予积分时候的折算比率，<br/>
-点击“**额外积分设置**”按钮可以设置积分叠加规则。<br/>
-![积分规则](./images/01-point-manage/25backend.png)<br/>
-• 在“**积分规则**”页面，点击右下角“**保存**”按钮即可以保存设置。<br/>
-![积分规则](./images/01-point-manage/35backend.png)<br/>
+<!-- ---------- 步骤 1：积分获取设置 ---------- -->
+### 1. 积分获取设置
 
-**2.积分消耗设置<br/>**
-• 在“**积分规则**”页面的“**积分消耗**“栏位，可以设置客户消耗积分的路径和比率。<br/>
-![积分规则](./images/01-point-manage/26backend.png)<br/>
-• 在“**积分消耗**”栏位内，点击“**积分兑换单独设置**”按钮可以单独设置比例不同的项目或产品。<br/>
-![积分规则](./images/01-point-manage/27backend.png)<br/>
-• 在“**积分规则**”页面，点击右下角“**保存**”按钮即可以保存设置。<br/>
-![积分规则](./images/01-point-manage/35backend.png)<br/>
+<div className="step-block">
+  <div className="step-desc">
+    进入积分规则页面，设置积分获取方式及比例。
+  </div>
 
-**3.积分有效期<br/>**
-• 在“**积分规则**”页面的“**有效期**“栏位，可以设置客户每笔积分的有效期时长。，<br/>
-![积分规则](./images/01-point-manage/28backend.png)<br/>
-• 在“**积分规则**”页面，点击右下角“**保存**”按钮即可以保存设置。<br/>
-![积分规则](./images/01-point-manage/35backend.png)<br/>
+  ![积分规则](./images/01-point-manage/22backend.png)
+  <div className="image-caption">图 1：积分规则页面</div>
 
-**4.积分规则说明<br/>**
-• 在“**积分规则**”页面的“**积分规则说明**“栏位，可以设置给客户展示的积分规则内容，<br/>
-![积分规则](./images/01-point-manage/29backend.png)<br/>
-• 在“**积分规则**”页面，点击右下角“**保存**”按钮即可以保存设置。<br/>
-![积分规则](./images/01-point-manage/35backend.png)<br/>
-• “**积分规则说明**“开启后，客人可以在手机APP“**MaSe**”上“**我的 - 积分 - 积分规则**”中看到内容<br/>
-![积分规则](./images/01-point-manage/30backend.png)<br/>
+  ![积分规则](./images/01-point-manage/24backend.png)
+  <div className="image-caption">图 2：积分获取设置</div>
 
-**5.查询客户积分<br/>**
-• • 在“MaSe”导航栏中打开“**客户资料**”页面，点击要查询积分的客户信息后的“**查询**”按钮，打开“**客户详情**”页面。<br/>
-![积分规则](./images/01-point-manage/36backend.png)<br/>
-• 在“**客户详情**”页面，点击“**积分余额**”按钮。打开“**积分详情**”页面，可以看到“**积分变动的明细**“和”**积分的有效期**“<br/>
-![积分规则](./images/01-point-manage/37backend.png)<br/>
-• 在“**客户详情**”页面，点击“**积分**”板块的“**编辑**”按钮。打开“**积分手动调整**”页面，可以”**增加或减少**”客户的积分余额。<br/>
-![积分规则](./images/01-point-manage/38backend.png)<br/>
+  <div className="step-desc">
+    点击 <strong>支付方式设置</strong> 可设置不同支付方式的积分比例。
+  </div>
+
+  <div className="step-desc">
+    点击 <strong>额外积分设置</strong> 可设置叠加规则。
+  </div>
+
+  ![积分规则](./images/01-point-manage/25backend.png)
+  <div className="image-caption">图 3：积分扩展设置</div>
+
+  ![积分规则](./images/01-point-manage/35backend.png)
+  <div className="image-caption">图 4：保存设置</div>
+</div>
+
+<!-- ---------- 步骤 2：积分消耗设置 ---------- -->
+### 2. 积分消耗设置
+
+<div className="step-block">
+  <div className="step-desc">
+    设置积分抵扣比例及消耗规则。
+  </div>
+
+  ![积分规则](./images/01-point-manage/26backend.png)
+  <div className="image-caption">图 5：积分消耗设置</div>
+
+  <div className="step-desc">
+    点击 <strong>积分兑换单独设置</strong>，可针对特定项目或产品设置不同规则。
+  </div>
+
+  ![积分规则](./images/01-point-manage/27backend.png)
+  <div className="image-caption">图 6：特殊兑换设置</div>
+
+  ![积分规则](./images/01-point-manage/35backend.png)
+  <div className="image-caption">图 7：保存设置</div>
+</div>
+
+<!-- ---------- 步骤 3：积分有效期设置 ---------- -->
+### 3. 积分有效期设置
+
+<div className="step-block">
+  <div className="step-desc">
+    设置积分有效期。
+  </div>
+
+  ![积分规则](./images/01-point-manage/28backend.png)
+  <div className="image-caption">图 8：有效期设置</div>
+
+  ![积分规则](./images/01-point-manage/35backend.png)
+  <div className="image-caption">图 9：保存设置</div>
+</div>
+
+<!-- ---------- 步骤 4：积分规则说明设置 ---------- -->
+### 4. 积分规则说明设置
+
+<div className="step-block">
+  <div className="step-desc">
+    设置展示给客户的积分规则说明内容。
+  </div>
+
+  ![积分规则](./images/01-point-manage/29backend.png)
+  <div className="image-caption">图 10：规则说明设置</div>
+
+  <div className="step-desc">
+    开启后，客户可在 App 中查看积分规则说明。
+  </div>
+
+  ![积分规则](./images/01-point-manage/30backend.png)
+  <div className="image-caption">图 11：客户端展示</div>
+</div>
+
+<!-- ---------- 步骤 5：查询客户积分 ---------- -->
+### 5. 查询客户积分
+
+<div className="step-block">
+  <div className="step-desc">
+    在客户详情中查看积分余额及变动记录。
+  </div>
+
+  ![积分规则](./images/01-point-manage/36backend.png)
+  <div className="image-caption">图 12：客户详情</div>
+
+  ![积分规则](./images/01-point-manage/37backend.png)
+  <div className="image-caption">图 13：积分明细</div>
+
+  <div className="step-desc">
+    支持手动调整客户积分。
+  </div>
+
+  ![积分规则](./images/01-point-manage/38backend.png)
+  <div className="image-caption">图 14：手动调整积分</div>
+</div>
+
+<!-- ---------- 步骤 6：客户自行查询积分 ---------- -->
+### 6. 客户自行查询积分
+
+<div className="step-block">
+  <div className="step-desc">
+    在 MaSe 手机端 APP 或门店预约链接中，客户可在“我的”页面点击积分，进入积分页面查看积分余额及变动记录。
+  </div>
+
+  ![积分规则](./images/01-point-manage/09point.png)
+  <div className="image-caption">图 15：客户端积分查询</div>
+</div>
 
 ---
 
+<!-- ====================== 温馨提示 ====================== -->
 ## 温馨提示
-1.“**积分规则**”保存之后，保存前的单据并不会自动生成积分。只有“**积分规则保存后**“新添加的单据或业务才回根据规则产生积分。
-2.在“**积分规则**”页面，“**积分获取**”内选项解释：<br/>
-1️⃣”新增客户获得积分”：新添加的客户信息将自动获得积分；<br/>
-2️⃣”启用产品、项目、权益管理中的积分设置”：如产品，项目，权益管理中单独设置了积分规则，则优先走对应栏位内的设置；<br/>
-• 项目积分设置：“**设置-基础设置-项目管理-编辑项目-设置-积分获取规则**”；<br/>
-![积分规则](./images/01-point-manage/31backend.png)<br/>
-• 产品积分设置：“**设置-基础设置-产品管理-编辑产品-积分获取规则**”；<br/>
-![积分规则](./images/01-point-manage/32backend.png)<br/>
-• 权益积分设置：“**设置-权益设置-会员权益-编辑客户权益-积分获取规则**”；<br/>
-![积分规则](./images/01-point-manage/33backend.png)<br/>
-• “**代金券**”，“**套餐**”，“**礼品卡**”积分设置方法和“”**权益积分**“设置类似。<br/>
-3️⃣”仅已激活会员积分”：只有在“**客户 - 客户详情 - 设置 - 激活会员状态**开启状态的客户才能获得积分；<br/>
-![积分规则](./images/01-point-manage/23backend.png)<br/>
-4️⃣“[客户]产品/项目消费获积分”：客户可以在消费产品和项目时获得积分；<br/>
-5️⃣“[客户]客户权益/代金券/套餐办理获积分”：客户可以在购买权益/代金券/套餐时获得积分；<br/>
-6️⃣“[推荐人]产品/项目消费获积分”：推荐人可以在被推荐的客人消费产品和项目时获得积分。推荐人身份可以分为“客户”或“员工”两种情况设置获得积分比例；<br/>
-7️⃣“[推荐人]客户权益/代金券/套餐办理获积分”：推荐人可以在被推荐的客人购买权益/代金券/套餐获得积分。推荐人身份可以分为“客户”或“员工”两种情况设置获得积分比例；<br/>
-8️⃣“推荐人奖励”：当推荐人通过手机端邀请其他人在门店注册客户信息成功后，推荐人可以获得奖励；<br/>
-9️⃣“被推荐人奖励”：当推荐人通过手机端邀请其他人在门店注册客户信息成功后，注册成功的客人可以获得奖励；<br/>
-🔟“新建客户奖励”：客户通过任何渠道在门店注册客户信息都可获得奖励；<br/>
+
+<div className="doc-note">
+  <strong>注意 1：</strong> 积分规则保存后，仅对新产生的业务生效，不会自动影响历史订单或历史积分。
+</div>
+
+<div className="doc-note">
+  <strong>注意 2：</strong> 如果项目、产品或权益单独设置了积分规则，则会优先生效，系统总规则不会覆盖单独规则。
+</div>
+
+<div className="doc-note">
+  <strong>注意 3：</strong> 仅已激活会员状态的客户才可正常获得积分。
+</div>
+
+<div className="doc-note">
+  <strong>注意 4：</strong> 客户端展示的积分规则说明需手动开启，否则客户无法在 App 中查看。
+</div>
 
 ---
+
+<!-- ====================== 积分规则说明 ====================== -->
+## 积分规则说明
+
+<div className="step-block">
+  <ul className="key-list compact-list">
+    <li><strong>新增客户获得积分：</strong>新添加客户信息后可自动获得积分。</li>
+
+    <li>
+      <strong>启用产品 / 项目 / 权益积分规则：</strong>
+      若单独设置积分规则，则会优先生效。
+      <br /><br />
+
+      • 项目路径：设置 → 基础设置 → 项目管理 → 编辑项目 → 积分获取规则
+      <br />
+
+      ![积分规则](./images/01-point-manage/31backend.png)
+
+      <br />
+
+      • 产品路径：设置 → 基础设置 → 产品管理 → 编辑产品 → 积分获取规则
+      <br />
+
+      ![积分规则](./images/01-point-manage/32backend.png)
+
+      <br />
+
+      • 权益路径：设置 → 权益设置 → 会员权益 → 编辑客户权益 → 积分获取规则
+      <br />
+
+      ![积分规则](./images/01-point-manage/33backend.png)
+
+      <br />
+
+      • “代金券 / 套餐 / 礼品卡”规则与权益类似。
+    </li>
+
+    <li>
+      <strong>仅已激活会员积分：</strong>
+      仅开启会员状态的客户才可获得积分。
+      <br />
+
+      ![积分规则](./images/01-point-manage/23backend.png)
+    </li>
+
+    <li><strong>客户消费获得积分：</strong>消费项目或产品后可获得积分。</li>
+
+    <li><strong>客户办理权益获得积分：</strong>购买权益类产品后可获得积分。</li>
+
+    <li><strong>推荐人消费奖励：</strong>被推荐客户消费时，推荐人可获得积分。</li>
+
+    <li><strong>推荐人办理奖励：</strong>被推荐客户购买权益时，推荐人可获得积分。</li>
+
+    <li><strong>推荐人邀请奖励：</strong>邀请客户注册成功后，推荐人可获得积分。</li>
+
+    <li><strong>被推荐人奖励：</strong>新客户注册成功后可获得积分。</li>
+
+    <li><strong>新建客户奖励：</strong>所有注册客户均可获得积分。</li>
+  </ul>
+</div>

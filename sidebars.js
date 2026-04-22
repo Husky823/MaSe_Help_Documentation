@@ -76,6 +76,8 @@ const sidebars = {
             type: 'category',
             label: '员工考勤和绩效',
             items: [
+              'backend/staff-attendance-performance/shift-scheduling',   
+              'backend/staff-attendance-performance/attendance',   
               'backend/staff-attendance-performance/payroll',     
               
             ],

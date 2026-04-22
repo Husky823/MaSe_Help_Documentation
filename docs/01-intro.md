@@ -1,6 +1,6 @@
 ---
 title: 页面标题
-sidebar_position: 数字
+sidebar_position: 
 ---
 
 # 页面主标题

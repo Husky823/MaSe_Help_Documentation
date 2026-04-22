@@ -407,4 +407,54 @@ img {
   }
 }
 
+------------------------------------------------------------------------------------
 
+.doc-related-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.doc-related-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.doc-related-bullet {
+  flex: 0 0 auto;
+  color: var(--ifm-color-primary);
+  font-size: 16px;
+  line-height: 1.8;
+  margin-top: 2px;
+}
+
+.doc-related-text {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+  line-height: 1.7;
+}
+
+.doc-related-text:hover {
+  text-decoration: none;
+}
+
+.doc-related-text strong {
+  color: var(--ifm-color-primary);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.doc-related-text span {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.doc-related-text:hover strong {
+  text-decoration: underline;
+}

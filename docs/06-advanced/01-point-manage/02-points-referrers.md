@@ -52,13 +52,12 @@ sidebar_position: 2
 </div>
 
 <!-- ====================== 操作视频（暂不启用） ====================== -->
-{/*
 ## 操作视频
 
 <div className="video-card">
   <div className="video-block responsive-video">
     <iframe
-      src="https://www.youtube.com/embed/VSsU9MVqAEs"
+      src="https://www.youtube.com/embed/f1L3g64RkJc"
       title="YouTube video player"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
@@ -82,7 +81,6 @@ sidebar_position: 2
     </a>
   </div>
 </div>
-*/}
 
 <!-- ====================== 操作步骤 ====================== -->
 ## 操作步骤
@@ -200,7 +198,7 @@ sidebar_position: 2
 </div>
 
 <!-- ---------- 步骤 4：被推荐人消费推荐人获得积分 ---------- -->
-### 4：被推荐人消费，推荐人获得积分
+### 4.被推荐人消费，推荐人获得积分
 <div className="step-block">
   <div className="step-title">4：被推荐人消费，推荐人获得积分</div>
 
@@ -219,13 +217,13 @@ sidebar_position: 2
   <div className="image-caption">图 12：推荐人积分奖励明细</div>
 </div>
 
-<!-- ---------- 步骤 5：推荐人获得的奖励如何做废 ---------- -->
-### 5：推荐人获得的奖励如何做废
+<!-- ---------- 步骤 5：推荐人获得的奖励如何作废 ---------- -->
+### 5.推荐人获得的奖励如何作废
 <div className="step-block">
-  <div className="step-title">5：推荐人获得的奖励如何做废</div>
+  <div className="step-title">5：推荐人获得的奖励如何作废</div>
 
   <div className="step-desc">
-    <strong>推荐人</strong> 或 <strong>被推荐人</strong> 获得的奖励，在 <strong>完全没有使用前</strong> ，是可以 <strong>做废</strong> 的。打开软件后台 <strong>客户</strong>功能，通过 <strong>邮箱/手机号/姓名</strong> 查询要做废奖励的客户。点击 <strong>查看</strong> 按钮进入客户详情页面。
+    <strong>推荐人</strong>或<strong>被推荐人</strong>获得的奖励，在<strong>完全没有使用前</strong>，是可以<strong>作废</strong>的。打开软件后台 <strong>客户</strong> 功能，通过<strong>邮箱/手机号/姓名</strong>查询要作废奖励的客户。点击 <strong>查看</strong> 按钮进入客户详情页面。
   </div>
 
   ![积分规则](./images/01-point-manage/11point.png)
@@ -239,11 +237,11 @@ sidebar_position: 2
   <div className="image-caption">图 12：查看赠送记录</div>
 
   <div className="step-desc">
-    在 <strong>单据详情</strong> 页面，点击右上角 <strong>做废</strong> 按钮，<strong>确定做废</strong>订单。做废成功后，之前获得的奖励会在消失。
+    在 <strong>单据详情</strong> 页面，点击右上角 <strong>作废</strong> 按钮，<strong>确定作废</strong>订单。作废成功后，之前获得的奖励会在消失。
   </div>
 
   ![积分规则](./images/01-point-manage/13point.png)
-  <div className="image-caption">图 13：做废赠送记录</div>
+  <div className="image-caption">图 13：作废赠送记录</div>
 </div>
 
 <!-- ====================== 温馨提示 ====================== -->

@@ -40,14 +40,13 @@ sidebar_position: 1
 
 ---
 
-<!-- ====================== 操作视频（暂不启用） ====================== -->
-{/*
+<!-- ====================== 操作视频 ====================== -->
 ## 操作视频
 
 <div className="video-card">
   <div className="video-block responsive-video">
     <iframe
-      src="https://www.youtube.com/embed/VSsU9MVqAEs"
+      src="https://www.youtube.com/embed/gXbwSO3L2VI"
       title="YouTube video player"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
@@ -71,7 +70,6 @@ sidebar_position: 1
     </a>
   </div>
 </div>
-*/}
 
 <!-- ====================== 操作步骤 ====================== -->
 ## 操作步骤

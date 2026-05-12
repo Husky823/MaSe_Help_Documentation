@@ -144,7 +144,7 @@ sidebar_position: 1
   <div className="image-caption">图 8：给员工排班</div>
 
   <div className="step-desc">
-    左侧选择 <strong>需要安排的班次</strong> （已选中的班次外面会有蓝色的框），在<strong>时序表</strong> 点击 <strong>空白格</strong> 可增加选中的班次，点击 <strong>已有班次的格</strong> 可取消之前设置的班次。编辑完成后，点击右上角 <strong>保存</strong> 按钮完成员工排班。
+    左侧选择 <strong>需要安排的班次</strong> （已选中的班次外面会有蓝色的框），在 <strong>时序表</strong> 点击 <strong>空白格</strong> 可增加选中的班次，点击 <strong>已有班次的格</strong> 可取消之前设置的班次。编辑完成后，点击右上角 <strong>保存</strong> 按钮完成员工排班。
   </div>
 
   ![时序表排班](./images/02staffattendance/09attendance.png)
@@ -240,4 +240,13 @@ sidebar_position: 1
       <span>查看排班与考勤数据如何同步到工资单中</span>
     </a>
   </div>
+
+  <div className="doc-related-item">
+    <span className="doc-related-bullet">↗</span>
+    <a className="doc-related-text" href="./payroll">
+      <strong>预约关联员工排班</strong>
+      <span>客户在线预约门店服务会关联到员工的上班时间</span>
+    </a>
+  </div>
+
 </div>

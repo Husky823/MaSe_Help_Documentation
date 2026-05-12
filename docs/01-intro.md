@@ -1,6 +1,6 @@
 ---
 title: 页面标题
-sidebar_position: 
+sidebar_position: 1
 ---
 
 # 页面主标题

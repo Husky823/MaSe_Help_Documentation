@@ -101,6 +101,7 @@ const sidebars = {
         'advanced/project-consumption',
         'advanced/project-setting-scope',
         'advanced/gc-generate-send',
+        'advanced/waiting_list',
         'advanced/godaddy-ssl',
         
       ],
